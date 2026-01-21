@@ -1,0 +1,121 @@
+% ═══════════════════════════════════════════════════════════════
+% FILE: preamble/commands_sakura.tex
+% DESCRIPTION: Commands for Sakura Edition
+% ═══════════════════════════════════════════════════════════════
+
+% ───────────────────────────────────────
+% SAKURA GRAPHICS
+% ───────────────────────────────────────
+\newcommand{\sakura}[1][1cm]{%
+    \includegraphics[width=#1]{cherry_blossom}%
+}
+
+\NewDocumentCommand{\sakurafade}{O{0.5} O{1cm}}{%
+    \begin{tikzpicture}
+        \node[opacity=#1] {\includegraphics[width=#2]{cherry_blossom}};
+    \end{tikzpicture}%
+}
+
+\newcommand{\sakuraline}[1][5]{%
+    \begin{center}
+        \foreach \i in {1,...,#1} {%
+            \sakurafade[0.6][0.5cm]\hspace{2mm}%
+        }%
+    \end{center}
+}
+
+\newcommand{\sakurafall}[1][20]{%
+    \begin{tikzpicture}[remember picture, overlay]
+        \foreach \i in {1,...,#1} {
+            \pgfmathsetmacro{\xpos}{5+rnd*90}
+            \pgfmathsetmacro{\ypos}{5+rnd*130}
+            \pgfmathsetmacro{\rot}{rnd*360}
+            \pgfmathsetmacro{\size}{0.2+rnd*0.4}
+            \pgfmathsetmacro{\opac}{0.05+rnd*0.15}
+            \node[opacity=\opac, rotate=\rot] 
+                at ($(current page.south west) + (\xpos mm, \ypos mm)$) {
+                \includegraphics[width=\size cm]{cherry_blossom}
+            };
+        }
+    \end{tikzpicture}%
+}
+
+% ───────────────────────────────────────
+% STORY HEADER
+% ───────────────────────────────────────
+\newcommand{\storyheader}[2]{%
+    \clearpage
+    \thispagestyle{plain}
+    
+    \vspace*{0.5cm}
+    
+    \begin{center}
+        \sakurafade[0.7][2.5cm]
+        
+        \vspace{0.8cm}
+        
+        \parbox{0.88\textwidth}{%
+            \centering
+            {\titlefont\large\textbf{#1}}%
+        }
+        
+        \vspace{0.5cm}
+        
+        \sakurafade[0.5][1.8cm]
+    \end{center}
+    
+    \begin{flushright}
+        \small\textcolor{sakura_dark}{\textit{#2}}\\[0.3cm]
+        \sakurafade[0.4][1cm]
+    \end{flushright}
+    
+    \vspace{0.6cm}
+    
+    \addcontentsline{toc}{chapter}{#1}
+    \markboth{#1}{#1}
+}
+
+% ───────────────────────────────────────
+% STORY FOOTER
+% ───────────────────────────────────────
+\newcommand{\storyfooter}[1]{%
+    \par\vspace{1cm}
+    
+    \begin{center}
+        \sakurafade[0.3][0.6cm]\quad
+        \sakurafade[0.5][1cm]\quad
+        \sakurafade[0.3][0.6cm]
+    \end{center}
+    
+    \ifstrempty{#1}{}{%
+        \vspace{0.5cm}
+        \begin{flushright}
+            \small\textcolor{sakura_dark}{\textit{P.S. #1}}
+        \end{flushright}
+    }
+    \clearpage
+}
+
+% ───────────────────────────────────────
+% AUTHOR'S NOTE (LIMITED ONLY)
+% ───────────────────────────────────────
+\newcommand{\authornote}[1]{%
+    \vspace{0.8cm}
+    \begin{center}
+        \begin{tikzpicture}
+            \node[
+                draw=sakura_dark,
+                rounded corners=5pt,
+                fill=sakura_light,
+                inner sep=8pt,
+                text width=0.85\textwidth,
+                align=justify
+            ] {
+                \footnotesize
+                \textcolor{sakura_dark}{\textbf{♡ Lời tác giả}}\\[0.3cm]
+                \textcolor{bunko_ink}{#1}
+            };
+        \end{tikzpicture}
+    \end{center}
+    \vspace{0.8cm}
+}

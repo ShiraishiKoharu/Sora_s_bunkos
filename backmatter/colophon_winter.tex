@@ -1,0 +1,77 @@
+% ═══════════════════════════════════════════════════════════════
+% FILE: backmatter/colophon_winter.tex
+% ═══════════════════════════════════════════════════════════════
+
+\clearpage
+\thispagestyle{empty}
+\pagecolor{winter_paper}
+
+\snowfall[20]
+
+\begin{tikzpicture}[remember picture, overlay]
+    \node[anchor=north east, xshift=-5mm, yshift=-5mm, opacity=0.3] 
+        at (current page.north east) 
+        {\pgfornament[width=4cm, color=winter_blue]{72}};
+    
+    \node[anchor=south west, xshift=5mm, yshift=5mm, opacity=0.3] 
+        at (current page.south west) 
+        {\pgfornament[width=4cm, color=winter_blue, symmetry=c]{72}};
+\end{tikzpicture}
+
+\vspace*{1.5cm}
+
+\begin{center}
+    \tikz{
+        \node[
+            draw=winter_blue, 
+            rounded corners=10pt, 
+            inner sep=6pt,
+            fill=ice_blue!30
+        ] {
+            \textcolor{winter_blue}{\footnotesize 
+                ❄ Winter Snowflake Edition ❄
+            }
+        };
+    }
+    
+    \vspace{1cm}
+    
+    \textcolor{winter_blue}{\pgfornament[width=4cm]{72}}
+    
+    \vspace{0.8cm}
+    
+    {\titlefont\LARGE\textcolor{winter_blue}{30 Ngày / 30 Oneshots}}
+    
+    \vspace{0.3cm}
+    
+    {\textit{Tuyển tập truyện ngắn}}
+    
+    \vspace{0.8cm}
+    
+    \snowflakeline[5]
+    
+    \vspace{1cm}
+    
+    \begin{tabular}{rl}
+        \textcolor{winter_blue}{\scriptsize TÁC GIẢ:} & \textbf{Akihiko Sora} \\[0.3cm]
+        \textcolor{winter_blue}{\scriptsize BIÊN TẬP:} & Mitsuki Yumei \\[0.3cm]
+        \textcolor{winter_blue}{\scriptsize DÀNH TẶNG:} & {\japanesefont\textbf{美幸}} (Miyuki) \\
+    \end{tabular}
+    
+    \vspace{1cm}
+    
+    \tikz{
+        \draw[winter_blue, line width=0.8pt, fill=crystal] (-2.5,0.6) rectangle (2.5,-0.6);
+        \node at (0,0) {\textcolor{deep_winter}{\footnotesize\textbf{UNIQUE EDITION}}};
+    }
+    
+    \vspace{1.5cm}
+    
+    \textcolor{winter_blue}{\pgfornament[width=4cm]{72}}
+    
+    \vspace{0.5cm}
+    
+    {\footnotesize\textcolor{winter_blue}{Winter Edition — \the\year}}
+\end{center}
+
+\vspace*{\fill}

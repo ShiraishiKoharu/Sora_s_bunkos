@@ -1,0 +1,21 @@
+% ═══════════════════════════════════════════════════════════════
+% FILE: preamble/headers_winter.tex
+% DESCRIPTION: Header/Footer for Winter Edition
+% ═══════════════════════════════════════════════════════════════
+
+\fancypagestyle{bunko}{
+    \fancyhf{}
+    \fancyfoot[LE,RO]{\small\textcolor{winter_blue}{\thepage}}
+    \fancyhead[CE]{\footnotesize\itshape\textcolor{frost_blue}{\leftmark}}
+    \fancyhead[CO]{\footnotesize\itshape\textcolor{frost_blue}{30 Oneshots ❄ Winter}}
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+}
+
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \fancyfoot[C]{\small\textcolor{winter_blue}{\thepage}}
+    \renewcommand{\headrulewidth}{0pt}
+}
+
+\pagestyle{bunko}

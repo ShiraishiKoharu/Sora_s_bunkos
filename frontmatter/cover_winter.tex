@@ -1,0 +1,94 @@
+% ═══════════════════════════════════════════════════════════════
+% FILE: frontmatter/cover_winter.tex
+% ═══════════════════════════════════════════════════════════════
+
+\thispagestyle{empty}
+\pagecolor{snow_white}
+
+% Decorations
+\snowfall[30]
+
+\begin{tikzpicture}[remember picture, overlay]
+    \node[anchor=north east, xshift=-5mm, yshift=-5mm, opacity=0.2] 
+        at (current page.north east) 
+        {\pgfornament[width=4cm, color=winter_blue]{72}};
+    
+    \node[anchor=south west, xshift=5mm, yshift=5mm, opacity=0.2] 
+        at (current page.south west) 
+        {\pgfornament[width=4cm, color=winter_blue, symmetry=c]{72}};
+    
+    \draw[winter_blue, opacity=0.4, line width=0.8pt, double distance=2pt] 
+        ($(current page.north west) + (8mm,-8mm)$) 
+        rectangle 
+        ($(current page.south east) + (-8mm,8mm)$);
+\end{tikzpicture}
+
+\vspace*{0.5cm}
+
+\begin{center}
+    % Badge
+    \tikz{
+        \node[
+            draw=winter_blue, 
+            rounded corners=10pt, 
+            inner sep=6pt,
+            fill=ice_blue!30
+        ] {
+            \textcolor{winter_blue}{\footnotesize 
+                ❄ Winter Snowflake Edition ❄
+            }
+        };
+    }
+    
+    \vspace{0.5cm}
+    
+    % Dedication badge
+    \tikz{
+        \node[
+            draw=deep_winter, 
+            rounded corners=8pt, 
+            inner sep=5pt,
+            fill=crystal
+        ] {
+            \textcolor{deep_winter}{\scriptsize 
+                Dành tặng {\japanesefont 美幸}
+            }
+        };
+    }
+    
+    \vspace{1.2cm}
+    
+    \textcolor{winter_blue}{\pgfornament[width=5cm]{72}}
+    
+    \vspace{1cm}
+    
+    {\titlefont\fontsize{48}{50}\selectfont\textcolor{deep_winter}{\textbf{30}}}
+    
+    \vspace{0.3cm}
+    
+    {\titlefont\Large\textcolor{winter_blue}{Ngày / Oneshots}}
+    
+    \vspace{0.5cm}
+    
+    \snowflakeline[7]
+    
+    \vspace{0.5cm}
+    
+    {\large\textit{Thử thách mỗi ngày một truyện ngắn}}
+    
+    \vfill
+    
+    {\footnotesize\textcolor{frost_blue}{Tác phẩm của}}\\[0.3cm]
+    {\titlefont\LARGE\textcolor{winter_blue}{\textbf{Akihiko Sora}}}
+    
+    \vspace{1cm}
+    
+    \textcolor{winter_blue}{\pgfornament[width=5cm]{72}}
+    
+    \vspace{0.8cm}
+    
+    {\footnotesize\textcolor{frost_blue}{\the\year}}
+\end{center}
+
+\clearpage
+\pagecolor{bunko_paper}

@@ -1,0 +1,59 @@
+% ═══════════════════════════════════════════════════════════════
+% FILE: preamble/packages.tex
+% DESCRIPTION: All package imports
+% ═══════════════════════════════════════════════════════════════
+
+% ───────────────────────────────────────
+% GEOMETRY
+% ───────────────────────────────────────
+\usepackage[
+    paperwidth=105mm, 
+    paperheight=148mm, 
+    top=10mm, 
+    bottom=12mm, 
+    inner=12mm,
+    outer=8mm,
+    headsep=5mm,
+    footskip=8mm
+]{geometry}
+
+% ───────────────────────────────────────
+% LANGUAGE & ENCODING
+% ───────────────────────────────────────
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setdefaultlanguage{vietnamese}
+\setotherlanguage{japanese}
+
+% ───────────────────────────────────────
+% GRAPHICS
+% ───────────────────────────────────────
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{pgfornament}
+\usepackage{pgffor}
+
+% ───────────────────────────────────────
+% COLORS
+% ───────────────────────────────────────
+\usepackage{xcolor}
+
+% ───────────────────────────────────────
+% TYPOGRAPHY
+% ───────────────────────────────────────
+\usepackage{indentfirst}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+
+% ───────────────────────────────────────
+% UTILITIES
+% ───────────────────────────────────────
+\usepackage{etoolbox}
+\usepackage{xparse}
+\usepackage{hyperref}
+
+% ───────────────────────────────────────
+% GRAPHICS PATH
+% ───────────────────────────────────────
+\graphicspath{{images/pdf/}{images/}}

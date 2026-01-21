@@ -1,0 +1,14 @@
+% ═══════════════════════════════════════════════════════════════
+% FILE: preamble/chapters_normal.tex
+% DESCRIPTION: Chapter styling for Normal Edition
+% ═══════════════════════════════════════════════════════════════
+
+\titleformat{\chapter}[display]
+    {\normalfont\titlefont\large\centering}
+    {}
+    {0pt}
+    {\vspace{1cm}}
+    [\vspace{0.3cm}\textcolor{bunko_gray}{\rule{2cm}{0.4pt}}\vspace{0.5cm}]
+
+\titlespacing*{\chapter}{0pt}{0pt}{20pt}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}

@@ -1,0 +1,14 @@
+% ═══════════════════════════════════════════════════════════════
+% FILE: preamble/chapters_winter.tex
+% DESCRIPTION: Chapter styling for Winter Edition
+% ═══════════════════════════════════════════════════════════════
+
+\titleformat{\chapter}[display]
+    {\normalfont\titlefont\large\centering}
+    {}
+    {0pt}
+    {\textcolor{winter_blue}{\pgfornament[width=3cm]{72}}\\[0.5cm]}
+    [\vspace{0.3cm}\textcolor{ice_blue}{\pgfornament[width=2cm]{80}}\vspace{0.5cm}]
+
+\titlespacing*{\chapter}{0pt}{0pt}{20pt}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}

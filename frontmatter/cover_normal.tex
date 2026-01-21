@@ -1,0 +1,45 @@
+% ═══════════════════════════════════════════════════════════════
+% FILE: frontmatter/cover_normal.tex
+% ═══════════════════════════════════════════════════════════════
+
+\thispagestyle{empty}
+\pagecolor{bunko_paper}
+
+\begin{tikzpicture}[remember picture, overlay]
+    \draw[bunko_gray, line width=0.4pt] 
+        ($(current page.north west) + (8mm,-8mm)$) 
+        rectangle 
+        ($(current page.south east) + (-8mm,8mm)$);
+\end{tikzpicture}
+
+\vspace*{2cm}
+
+\begin{center}
+    {\titlefont\fontsize{50}{52}\selectfont\textcolor{bunko_accent}{\textbf{30}}}
+
+    \vspace{0.3cm}
+
+    {\titlefont\LARGE\textbf{Ngày / Oneshots}}
+
+    \vspace{1.5cm}
+
+    \dividerline
+
+    \vspace{1.5cm}
+
+    {\large\textit{Thử thách mỗi ngày một câu chuyện}}
+
+    \vfill
+
+    {\titlefont\LARGE\textbf{Akihiko Sora}}
+
+    \vspace{0.5cm}
+
+    {\small\textcolor{bunko_gray}{Bunko Edition — \the\year}}
+
+    \vspace{1cm}
+
+    \textcolor{bunko_gray}{\rule{5cm}{0.5pt}}
+\end{center}
+
+\clearpage

@@ -1,0 +1,32 @@
+% ═══════════════════════════════════════════════════════════════
+% FILE: preamble/colors_sakura.tex
+% DESCRIPTION: Color definitions for Sakura Edition
+% ═══════════════════════════════════════════════════════════════
+
+% Base colors
+\definecolor{bunko_paper}{HTML}{FAF6F0}
+\definecolor{bunko_ink}{HTML}{1A1A1A}
+\definecolor{bunko_gray}{HTML}{666666}
+
+% Sakura theme
+\definecolor{sakura}{HTML}{FFB7C5}
+\definecolor{sakura_dark}{HTML}{C71585}
+\definecolor{sakura_light}{HTML}{FFE4E9}
+
+% Theme aliases
+\colorlet{theme_primary}{sakura_dark}
+\colorlet{theme_secondary}{sakura}
+\colorlet{theme_light}{sakura_light}
+
+% Page colors
+\pagecolor{bunko_paper}
+\color{bunko_ink}
+
+% Hyperref
+\hypersetup{
+    colorlinks=true,
+    linkcolor=sakura_dark,
+    urlcolor=sakura_dark,
+    pdftitle={30 Ngày 30 Oneshots - Limited Sakura Edition},
+    pdfauthor={Akihiko Sora}
+}

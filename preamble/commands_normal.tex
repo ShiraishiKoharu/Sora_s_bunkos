@@ -1,0 +1,57 @@
+% ═══════════════════════════════════════════════════════════════
+% FILE: preamble/commands_normal.tex
+% DESCRIPTION: Commands for Normal Edition
+% ═══════════════════════════════════════════════════════════════
+
+% ───────────────────────────────────────
+% STORY HEADER
+% ───────────────────────────────────────
+\newcommand{\storyheader}[2]{%
+    \clearpage
+    \thispagestyle{plain}
+    
+    \vspace*{0.5cm}
+    
+    \begin{center}
+        \textcolor{bunko_gray}{\rule{3cm}{0.4pt}}
+        
+        \vspace{0.8cm}
+        
+        \parbox{0.88\textwidth}{%
+            \centering
+            {\titlefont\large\textbf{#1}}%
+        }
+        
+        \vspace{0.5cm}
+        
+        \textcolor{bunko_gray}{\rule{2cm}{0.4pt}}
+    \end{center}
+    
+    \begin{flushright}
+        \small\textcolor{bunko_gray}{\textit{#2}}
+    \end{flushright}
+    
+    \vspace{0.6cm}
+    
+    \addcontentsline{toc}{chapter}{#1}
+    \markboth{#1}{#1}
+}
+
+% ───────────────────────────────────────
+% STORY FOOTER
+% ───────────────────────────────────────
+\newcommand{\storyfooter}[1]{%
+    \par\vspace{1cm}
+    
+    \begin{center}
+        \textcolor{bunko_gray}{\rule{3cm}{0.3pt}}
+    \end{center}
+    
+    \ifstrempty{#1}{}{%
+        \vspace{0.5cm}
+        \begin{flushright}
+            \small\textcolor{bunko_gray}{\textit{P.S. #1}}
+        \end{flushright}
+    }
+    \clearpage
+}

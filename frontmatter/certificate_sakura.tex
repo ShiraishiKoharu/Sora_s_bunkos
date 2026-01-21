@@ -1,0 +1,68 @@
+% ═══════════════════════════════════════════════════════════════
+% FILE: frontmatter/certificate_sakura.tex
+% ═══════════════════════════════════════════════════════════════
+
+\thispagestyle{empty}
+
+\begin{tikzpicture}[remember picture, overlay]
+    \draw[sakura, line width=1pt, double] 
+        ($(current page.north west) + (12mm,-12mm)$) 
+        rectangle 
+        ($(current page.south east) + (-12mm,12mm)$);
+\end{tikzpicture}
+
+\vspace*{1.5cm}
+
+\begin{center}
+    \textcolor{sakura}{\pgfornament[width=4cm]{72}}
+    
+    \vspace{1cm}
+    
+    {\titlefont\Large\textcolor{sakura_dark}{GIẤY XÁC NHẬN}}
+    
+    \vspace{0.3cm}
+    
+    {\small\textit{Limited Sakura Edition}}
+    
+    \vspace{1.5cm}
+    
+    {\footnotesize Bản sách này là}
+    
+    \vspace{0.5cm}
+    
+    \tikz{
+        \draw[sakura_dark, line width=0.5pt] (-3,0.6) rectangle (3,-0.6);
+        \node at (0,0) {
+            {\Large\textcolor{sakura_dark}{No. \underline{\hspace{1.5cm}} / 500}}
+        };
+    }
+    
+    \vspace{1cm}
+    
+    {\footnotesize trong tổng số 500 bản giới hạn}
+    
+    \vspace{1.5cm}
+    
+    \begin{flushright}
+        \hspace{3cm}
+        {\footnotesize\textit{Người sở hữu:}}
+        
+        \vspace{0.3cm}
+        
+        \textcolor{sakura_dark}{\rule{4cm}{0.4pt}}
+        
+        \vspace{1cm}
+        
+        {\footnotesize\textit{Tác giả:}}
+        
+        \vspace{0.3cm}
+        
+        {\handwritingfont\textcolor{sakura_dark}{Akihiko Sora}}
+    \end{flushright}
+    
+    \vfill
+    
+    \textcolor{sakura}{\pgfornament[width=4cm]{72}}
+\end{center}
+
+\clearpage

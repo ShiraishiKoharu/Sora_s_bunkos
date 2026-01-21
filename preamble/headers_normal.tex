@@ -1,0 +1,21 @@
+% ═══════════════════════════════════════════════════════════════
+% FILE: preamble/headers_normal.tex
+% DESCRIPTION: Header/Footer for Normal Edition
+% ═══════════════════════════════════════════════════════════════
+
+\fancypagestyle{bunko}{
+    \fancyhf{}
+    \fancyfoot[LE,RO]{\small\thepage}
+    \fancyhead[CE]{\footnotesize\itshape\textcolor{bunko_gray}{\leftmark}}
+    \fancyhead[CO]{\footnotesize\itshape\textcolor{bunko_gray}{30 Oneshots}}
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+}
+
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \fancyfoot[C]{\small\thepage}
+    \renewcommand{\headrulewidth}{0pt}
+}
+
+\pagestyle{bunko}

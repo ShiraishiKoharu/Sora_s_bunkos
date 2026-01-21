@@ -1,0 +1,88 @@
+% ═══════════════════════════════════════════════════════════════
+% FILE: main_miyuki_winter.tex
+% DESCRIPTION: Main entry point for Miyuki Winter Edition
+% ═══════════════════════════════════════════════════════════════
+
+\documentclass[9pt, openany, twoside]{book}
+
+% ───────────────────────────────────────
+% EDITION FLAGS
+% ───────────────────────────────────────
+\newif\iflimitededition
+\limitededitiontrue
+
+\newif\ifwinteredition
+\wintereditiontrue
+
+% ───────────────────────────────────────
+% PREAMBLE
+% ───────────────────────────────────────
+\input{preamble/packages}
+\input{preamble/fonts}
+\input{preamble/layout}
+\input{preamble/colors_winter}
+\input{preamble/headers_winter}
+\input{preamble/chapters_winter}
+\input{preamble/commands_shared}
+\input{preamble/commands_winter}
+
+% ═══════════════════════════════════════════════════════════════
+\begin{document}
+% ═══════════════════════════════════════════════════════════════
+
+% ───────────────────────────────────────
+% FRONT MATTER
+% ───────────────────────────────────────
+\frontmatter
+
+\input{frontmatter/cover_winter}
+\input{frontmatter/dedication_winter}
+\input{frontmatter/certificate_winter}
+\input{frontmatter/halftitle}
+\input{frontmatter/titlepage_winter}
+\input{frontmatter/copyright}
+\input{frontmatter/preface_winter}
+
+\tableofcontents
+\cleardoublepage
+
+% ───────────────────────────────────────
+% MAIN MATTER
+% ───────────────────────────────────────
+\mainmatter
+
+\include{chapters/chapter_1}
+\include{chapters/chapter_11}
+\include{chapters/chapter_2}
+\include{chapters/chapter_3}
+\include{chapters/chapter_4}
+\include{chapters/chapter_5}
+\include{chapters/chapter_6}
+\include{chapters/chapter_7}
+\include{chapters/chapter_8}
+\include{chapters/chapter_9}
+\include{chapters/chapter_10}
+
+\include{chapters/chapter_12}
+\include{chapters/chapter_13}
+\include{chapters/chapter_14}
+\include{chapters/chapter_15}
+\include{chapters/chapter_16}
+\include{chapters/chapter_17}
+\include{chapters/chapter_18}
+\include{chapters/chapter_19}
+\include{chapters/chapter_20}
+\include{chapters/chapter_21}
+% Add more chapters as needed
+
+% ───────────────────────────────────────
+% BACK MATTER
+% ───────────────────────────────────────
+\backmatter
+
+\input{backmatter/bonus_winter}
+\input{backmatter/colophon_winter}
+
+% ═══════════════════════════════════════════════════════════════
+\end{document}
+% ═══════════════════════════════════════════════════════════════
