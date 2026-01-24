@@ -29,3 +29,14 @@
 \newcommand{\thoughts}[1]{\textit{#1}}
 \newcommand{\dialogue}[1]{``#1''}
 \newcommand{\emphasis}[1]{\textbf{#1}}
+
+\newenvironment{psnote}{%
+    \vspace{1em}
+    \begin{flushright}
+    \begin{minipage}{0.9\textwidth}
+    \small\itshape
+    \textbf{P.S.}\\[0.5em]
+}{%
+    \end{minipage}
+    \end{flushright}
+}
