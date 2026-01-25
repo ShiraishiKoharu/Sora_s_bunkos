@@ -10,6 +10,11 @@
     \clearpage
     \thispagestyle{plain}
     
+    % ═══ ĐẶT Ở ĐÂY! ═══
+    \phantomsection
+    \addcontentsline{toc}{chapter}{#1}
+    \markboth{#1}{#1}
+    
     \vspace*{0.5cm}
     
     \begin{center}
@@ -32,11 +37,7 @@
     \end{flushright}
     
     \vspace{0.6cm}
-    
-    \addcontentsline{toc}{chapter}{#1}
-    \markboth{#1}{#1}
 }
-
 % ───────────────────────────────────────
 % STORY FOOTER
 % ───────────────────────────────────────
