@@ -1,0 +1,4004 @@
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.1.13)  28 JAN 2026 11:37
+ restricted system commands enabled.
+**main_limited.tex
+(./main_limited.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-29>
+Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended 
+collection.
+luaotfload | conf : Root cache directory is "C:/Users/Khai Nguyen/.texlive2025/t
+exmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/luat
+ex/luaotfload/fontloader-2023-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/Users/Khai Nguyen/.texlive2025/t
+exmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'.
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/base/boo
+k.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/base/bk1
+0.clo
+File: bk10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/Khai Nguyen/.texlive2
+025/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count273
+\c@chapter=\count274
+\c@section=\count275
+\c@subsection=\count276
+\c@subsubsection=\count277
+\c@paragraph=\count278
+\c@subparagraph=\count279
+\c@figure=\count280
+\c@table=\count281
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen147
+) (./preamble/packages.tex
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/geometry
+/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/graphics
+/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/iftex/
+ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/iftex/
+iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count282
+\Gm@cntv=\count283
+\c@Gm@tempcnt=\count284
+\Gm@bindingoffset=\dimen148
+\Gm@wd@mp=\dimen149
+\Gm@odd@mp=\dimen150
+\Gm@even@mp=\dimen151
+\Gm@layoutwidth=\dimen152
+\Gm@layoutheight=\dimen153
+\Gm@layouthoffset=\dimen154
+\Gm@layoutvoffset=\dimen155
+\Gm@dimlist=\toks18
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/fontspec
+/fontspec.sty
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/l3packag
+es/xparse/xparse.sty
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/l3kernel
+/expl3.sty
+Package: expl3 2025-12-29 L3 programming layer (loader) 
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/l3backen
+d/l3backend-luatex.def
+File: l3backend-luatex.def 2025-10-09 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count285
+Inserting `l3color' in `luaotfload.parse_color'.))
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/fontspec
+/fontspec-luatex.sty
+Package: fontspec-luatex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count286
+\l__fontspec_language_int=\count287
+\l__fontspec_strnum_int=\count288
+\l__fontspec_tmp_int=\count289
+\l__fontspec_tmpa_int=\count290
+\l__fontspec_tmpb_int=\count291
+\l__fontspec_tmpc_int=\count292
+\l__fontspec_em_int=\count293
+\l__fontspec_emdef_int=\count294
+\l__fontspec_strong_int=\count295
+\l__fontspec_strongdef_int=\count296
+\l__fontspec_tmpa_dim=\dimen156
+\l__fontspec_tmpb_dim=\dimen157
+\l__fontspec_tmpc_dim=\dimen158
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/base/fon
+tenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/fontspec
+/fontspec.cfg)))
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/polyglos
+sia/polyglossia.sty
+Package: polyglossia 2025/12/01 v2.9 Modern multilingual typesetting with XeLaT
+eX and LuaLaTeX
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/etoolbox
+/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count297
+)
+Lua module: polyglossia 2013/05/11 v1.3 Polyglossia
+\l_xpg_alias_keyvals_int=\count298
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/polyglos
+sia/gloss-latex.ldf
+File: gloss-latex.ldf polyglossia: module for default language
+)
+
+Package polyglossia Info: Setting LuaTeX font renderer to Harfbuzz
+
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/polyglos
+sia/gloss-vietnamese.ldf
+File: gloss-vietnamese.ldf polyglossia: module for Vietnamese
+)
+
+Package polyglossia Info: Default language is vietnamese
+
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/polyglos
+sia/gloss-japanese.ldf
+File: gloss-japanese.ldf polyglossia: module for Japanese
+\c@TempJNum=\count299
+\xpg@attr@cjkspacing=\attribute4
+Lua-only attribute polyglossia_inhibitglue_attr = 5
+Lua function polyglossia_inhibitglue_func = 31
+Inserting `polyglossia.lang_cjk_spacing' in `pre_shaping_filter'.)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/graphics
+/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/graphics
+/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/graphics
+/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/graphics
+-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 106.
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/graphics
+-def/luatex.def
+File: luatex.def 2025/09/29 v1.2f Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen159
+\Gin@req@width=\dimen160
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/pgf/fron
+tendlayer/tikz.sty
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/pgf/basi
+clayer/pgf.sty
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/pgf/util
+ities/pgfrcs.sty
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ut
+ilities/pgfutil-common.tex
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen161
+\pgfutil@tempdimb=\dimen162
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ut
+ilities/pgfutil-latex.def
+\pgfutil@abb=\box53
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ut
+ilities/pgfrcs.code.tex
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/pg
+f.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/pgf/basi
+clayer/pgfcore.sty
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/pgf/syst
+emlayer/pgfsys.sty
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/sy
+stemlayer/pgfsys.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ut
+ilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ut
+ilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks22
+))
+\pgf@x=\dimen163
+\pgf@y=\dimen164
+\pgf@xa=\dimen165
+\pgf@ya=\dimen166
+\pgf@xb=\dimen167
+\pgf@yb=\dimen168
+\pgf@xc=\dimen169
+\pgf@yc=\dimen170
+\pgf@xd=\dimen171
+\pgf@yd=\dimen172
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count300
+\c@pgf@countb=\count301
+\c@pgf@countc=\count302
+\c@pgf@countd=\count303
+\t@pgf@toka=\toks23
+\t@pgf@tokb=\toks24
+\t@pgf@tokc=\toks25
+\pgf@sys@id@count=\count304
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/sy
+stemlayer/pgf.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/sy
+stemlayer/pgfsys-luatex.def
+File: pgfsys-luatex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/sy
+stemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/sy
+stemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count305
+\pgfsyssoftpath@bigbuffer@items=\count306
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/sy
+stemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/xcolor/x
+color.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/graphics
+-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/graphics
+/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ba
+siclayer/pgfcore.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ma
+th/pgfmath.code.tex
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ma
+th/pgfmathutil.code.tex)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ma
+th/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen173
+\pgfmath@count=\count307
+\pgfmath@box=\box54
+\pgfmath@toks=\toks26
+\pgfmath@stack@operand=\toks27
+\pgfmath@stack@operation=\toks28
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ma
+th/pgfmathfunctions.code.tex)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ma
+th/pgfmathfunctions.basic.code.tex)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ma
+th/pgfmathfunctions.trigonometric.code.tex)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ma
+th/pgfmathfunctions.random.code.tex)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ma
+th/pgfmathfunctions.comparison.code.tex)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ma
+th/pgfmathfunctions.base.code.tex)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ma
+th/pgfmathfunctions.round.code.tex)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ma
+th/pgfmathfunctions.misc.code.tex)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ma
+th/pgfmathfunctions.integerarithmetics.code.tex)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ma
+th/pgfmathcalc.code.tex)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ma
+th/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count308
+))
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ma
+th/pgfint.code.tex)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ba
+siclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen174
+\pgf@picmaxx=\dimen175
+\pgf@picminy=\dimen176
+\pgf@picmaxy=\dimen177
+\pgf@pathminx=\dimen178
+\pgf@pathmaxx=\dimen179
+\pgf@pathminy=\dimen180
+\pgf@pathmaxy=\dimen181
+\pgf@xx=\dimen182
+\pgf@xy=\dimen183
+\pgf@yx=\dimen184
+\pgf@yy=\dimen185
+\pgf@zx=\dimen186
+\pgf@zy=\dimen187
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ba
+siclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen188
+\pgf@path@lasty=\dimen189
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ba
+siclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen190
+\pgf@shorten@start@additional=\dimen191
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ba
+siclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
+\pgf@picture@serial@count=\count309
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ba
+siclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen192
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ba
+siclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen193
+\pgf@pt@y=\dimen194
+\pgf@pt@temp=\dimen195
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ba
+siclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ba
+siclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ba
+siclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ba
+siclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen196
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ba
+siclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen197
+\pgf@sys@shading@range@num=\count310
+\pgf@shadingcount=\count311
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ba
+siclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ba
+siclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box58
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ba
+siclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ba
+siclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ba
+siclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ba
+siclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/mo
+dules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box59
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/mo
+dules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/pgf/comp
+atibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen198
+\pgf@nodesepend=\dimen199
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/pgf/comp
+atibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+))
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/pgf/util
+ities/pgffor.sty
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/pgf/util
+ities/pgfkeys.sty
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ut
+ilities/pgfkeys.code.tex))
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/pgf/math
+/pgfmath.sty
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ma
+th/pgfmath.code.tex))
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/ut
+ilities/pgffor.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen256
+\pgffor@skip=\dimen257
+\pgffor@stack=\toks29
+\pgffor@toks=\toks30
+))
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/fr
+ontendlayer/tikz/tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/li
+braries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count312
+\pgfplotmarksize=\dimen258
+)
+\tikz@lastx=\dimen259
+\tikz@lasty=\dimen260
+\tikz@lastxsaved=\dimen261
+\tikz@lastysaved=\dimen262
+\tikz@lastmovetox=\dimen263
+\tikz@lastmovetoy=\dimen264
+\tikzleveldistance=\dimen265
+\tikzsiblingdistance=\dimen266
+\tikz@figbox=\box60
+\tikz@figbox@bg=\box61
+\tikz@tempbox=\box62
+\tikz@tempbox@bg=\box63
+\tikztreelevel=\count313
+\tikznumberofchildren=\count314
+\tikznumberofcurrentchild=\count315
+\tikz@fig@count=\count316
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/mo
+dules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count317
+\pgfmatrixcurrentcolumn=\count318
+\pgf@matrix@numberofcolumns=\count319
+)
+\tikz@expandcount=\count320
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/fr
+ontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgf/fr
+ontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/pgfornam
+ent/pgfornament.sty
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/pgfopts/
+pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks31
+\pgfopts@list@add@b@toks=\toks32
+)
+Package: pgfornament 2024/08/14 v1.3 vector ornaments
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/pgfornam
+ent/pgflibraryvectorian.code.tex
+2020/04/06 1.1 pgflibraryvectorian.code.tex
+))
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/tools/in
+dentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/titlesec
+/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box64
+\beforetitleunit=\skip51
+\aftertitleunit=\skip52
+\ttl@plus=\dimen267
+\ttl@minus=\dimen268
+\ttl@toksa=\toks33
+\titlewidth=\dimen269
+\titlewidthlast=\dimen270
+\titlewidthfirst=\dimen271
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/fancyhdr
+/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip53
+\f@nch@offset@elh=\skip54
+\f@nch@offset@erh=\skip55
+\f@nch@offset@olh=\skip56
+\f@nch@offset@orh=\skip57
+\f@nch@offset@elf=\skip58
+\f@nch@offset@erf=\skip59
+\f@nch@offset@olf=\skip60
+\f@nch@offset@orf=\skip61
+\f@nch@height=\skip62
+\f@nch@footalignment=\skip63
+\f@nch@widthL=\skip64
+\f@nch@widthC=\skip65
+\f@nch@widthR=\skip66
+\@temptokenb=\toks34
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/bookmark
+/bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/hyperref
+/hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/kvsetkey
+s/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/kvdefi
+nekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pdfesc
+ape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/ltxcmd
+s/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pdftex
+cmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/infwar
+err/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks35
+))
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/hycolor/
+hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/hyperref
+/nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/refcount
+/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/gettit
+lestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/kvoption
+s/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count321
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/string
+enc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen272
+\Hy@linkcounter=\count322
+\Hy@pagecounter=\count323
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/hyperref
+/pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/intcal
+c/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count324
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/hyperref
+/puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count325
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/url/url.
+sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen273
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/bitset
+/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/bigint
+calc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count326
+\Field@Width=\dimen274
+\Fld@charsize=\dimen275
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count327
+\c@Item=\count328
+\c@Hfootnote=\count329
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/hyperref
+/hluatex.def
+File: hluatex.def 2025-07-12 v7.01o Hyperref driver for luaTeX
+\Fld@listcount=\count330
+\c@bookmark@seq@number=\count331
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/rerunfil
+echeck/rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/unique
+counter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip67
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/bookmark
+/bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
+)
+\BKM@id=\count332
+))) (./preamble/fonts.tex
+luaotfload | cache : Lookup cache loaded from C:/Users/Khai Nguyen/.texlive2025/
+texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+
+Package fontspec Info: 
+(fontspec)             Palatino Linotype scale = 0.95.
+
+
+Package fontspec Info: 
+(fontspec)             Palatino Linotype scale = 0.95.
+
+
+Package fontspec Info: 
+(fontspec)             Palatino Linotype scale = 0.95.
+
+
+Package fontspec Info: 
+(fontspec)             Palatino Linotype/B scale = 0.95.
+
+
+Package fontspec Info: 
+(fontspec)             Palatino Linotype/B scale = 0.95.
+
+
+Package fontspec Info: 
+(fontspec)             Palatino Linotype/I scale = 0.95.
+
+
+Package fontspec Info: 
+(fontspec)             Palatino Linotype/I scale = 0.95.
+
+
+Package fontspec Info: 
+(fontspec)             Palatino Linotype/BI scale = 0.95.
+
+
+Package fontspec Info: 
+(fontspec)             Palatino Linotype/BI scale = 0.95.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'PalatinoLinotype(0)' created for font
+(fontspec)             'Palatino Linotype' with options
+(fontspec)             [Renderer=Harfbuzz,Ligatures=TeX,Scale=0.95].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.95]"name:Palatino
+(fontspec)             Linotype:mode=harf;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[0.95]"name:Palatino
+(fontspec)             Linotype:mode=harf;script=latn;language=dflt;+tlig;+smcp
+;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.95]"name:Palatino
+(fontspec)             Linotype/B:mode=harf;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[0.95]"name:Palatino
+(fontspec)             Linotype/B:mode=harf;script=latn;language=dflt;+tlig;+sm
+cp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[0.95]"name:Palatino
+(fontspec)             Linotype/I:mode=harf;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[0.95]"name:Palatino
+(fontspec)             Linotype/I:mode=harf;script=latn;language=dflt;+tlig;+sm
+cp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.95]"name:Palatino
+(fontspec)             Linotype/BI:mode=harf;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[0.95]"name:Palatino
+(fontspec)             Linotype/BI:mode=harf;script=latn;language=dflt;+tlig;+s
+mcp;"
+
+LaTeX Font Info:    Font shape `TU/PalatinoLinotype(0)/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 5.
+
+Package fontspec Info: 
+(fontspec)             Font family 'PalatinoLinotype(1)' created for font
+(fontspec)             'Palatino Linotype' with options [Renderer=Harfbuzz].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:Palatino
+(fontspec)             Linotype:mode=harf;script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"name:Palatino
+(fontspec)             Linotype:mode=harf;script=latn;language=dflt;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"name:Palatino
+(fontspec)             Linotype/B:mode=harf;script=latn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"name:Palatino
+(fontspec)             Linotype/B:mode=harf;script=latn;language=dflt;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"name:Palatino
+(fontspec)             Linotype/I:mode=harf;script=latn;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"name:Palatino
+(fontspec)             Linotype/I:mode=harf;script=latn;language=dflt;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"name:Palatino
+(fontspec)             Linotype/BI:mode=harf;script=latn;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"name:Palatino
+(fontspec)             Linotype/BI:mode=harf;script=latn;language=dflt;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Segoe Script/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Segoe Script/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'SegoeScript(0)' created for font 'Segoe
+(fontspec)             Script' with options [Renderer=Harfbuzz].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:Segoe
+(fontspec)             Script:mode=harf;script=latn;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"name:Segoe
+(fontspec)             Script/B:mode=harf;script=latn;language=dflt;"
+
+)
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "MS Mincho/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "MS Mincho/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "MS Mincho/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'MSMincho(0)' created for font 'MS Mincho'
+(fontspec)             with options [Renderer=Harfbuzz].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:MS
+(fontspec)             Mincho:mode=harf;script=latn;language=dflt;"
+
+ (./preamble/layout.tex)
+(./preamble/colors_sakura.tex
+Package hyperref Info: Option `colorlinks' set `true' on input line 32.
+) (./preamble/headers_sakura.tex)
+(./preamble/chapters_sakura.tex) (./preamble/commands_shared.tex)
+(./preamble/commands_sakura.tex)
+
+LaTeX Warning: Unused global option(s):
+    [9pt].
+
+No file main_limited.aux.
+
+\openout1 = main_limited.aux
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(34.1433pt, 241.84845pt, 22.76219pt)
+* v-part:(T,H,B)=(28.45274pt, 358.50475pt, 34.1433pt)
+* \paperwidth=298.75394pt
+* \paperheight=421.10078pt
+* \textwidth=241.84845pt
+* \textheight=358.50475pt
+* \oddsidemargin=-38.1267pt
+* \evensidemargin=-49.5078pt
+* \topmargin=-70.04361pt
+* \headheight=12.0pt
+* \headsep=14.22636pt
+* \topskip=10.0pt
+* \footskip=22.76219pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 30.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 30.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 30.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 30.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 30.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 30.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 30.
+LaTeX Font Info:    Redeclaring math accent \check on input line 30.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 30.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 30.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 30.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/PalatinoLinotype(0)/m/n on input lin
+e 30.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/PalatinoLinotype(0)/m/n on input li
+ne 30.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/PalatinoLinotype(0)/m/n --> TU/PalatinoLinotype(0)/m
+/n on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/PalatinoLinotype(0)/m/it on input l
+ine 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/PalatinoLinotype(0)/b/n on input li
+ne 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/PalatinoLinotype(0)/m/n --> TU/PalatinoLinotype(0)/b
+/n on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/PalatinoLinotype(0)/b/it on input 
+line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 30.
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/context/base/m
+kii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count333
+\scratchdimen=\dimen276
+\scratchbox=\box65
+\nofMPsegments=\count334
+\nofMParguments=\count335
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count336
+\MPscratchDim=\dimen277
+\MPnumerator=\count337
+\makeMPintoPDFobject=\count338
+\everyMPtoPDFconversion=\toks37
+)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/epstopdf
+-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/latex/latexcon
+fig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring ON on input line 30.
+ (./frontmatter/cover_sakura.tex
+<images/pdf/cherry_blossom.pdf, id=7, 509.905pt x 487.8225pt>
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 8.86803pt x 8.47821pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 9.13634pt x 8.73874pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 9.52838pt x 9.11092pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 9.6951pt x 9.27467pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 6.57483pt x 6.28981pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 15.08946pt x 14.43306pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 16.40495pt x 15.69102pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 15.6491pt x 14.969pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 8.30276pt x 7.94228pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 13.2035pt x 12.62427pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 12.5844pt x 12.03624pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 12.89047pt x 12.32654pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 14.8763pt x 14.22464pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 8.7938pt x 8.41122pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 13.64417pt x 13.04855pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 9.23706pt x 8.8355pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 10.32722pt x 9.8776pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 6.20276pt x 5.93251pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 8.37831pt x 8.00926pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 16.26863pt x 15.55704pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 10.19003pt x 9.74362pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 11.05226pt x 10.56985pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 8.14386pt x 7.78596pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 10.13316pt x 9.69151pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 13.83476pt x 13.23465pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 15.0339pt x 14.38095pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 9.85226pt x 9.42354pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 7.06456pt x 6.7513pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 9.53316pt x 9.11836pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 9.
+(luatex.def)             Requested size: 15.88788pt x 15.19975pt.
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgforn
+ament/vectorian/vectorian73.pgf)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgforn
+ament/vectorian/vectorian73.pgf)
+LaTeX Font Info:    Font shape `TU/PalatinoLinotype(0)/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 39.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 39.
+(luatex.def)             Requested size: 11.38092pt x 10.88248pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 39.
+(luatex.def)             Requested size: 11.38092pt x 10.88248pt.
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgforn
+ament/vectorian/vectorian72.pgf)
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 57.
+(luatex.def)             Requested size: 14.22636pt x 13.60683pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 57.
+(luatex.def)             Requested size: 14.22636pt x 13.60683pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 57.
+(luatex.def)             Requested size: 14.22636pt x 13.60683pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 57.
+(luatex.def)             Requested size: 14.22636pt x 13.60683pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 57.
+(luatex.def)             Requested size: 14.22636pt x 13.60683pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 57.
+(luatex.def)             Requested size: 14.22636pt x 13.60683pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 57.
+(luatex.def)             Requested size: 14.22636pt x 13.60683pt.
+LaTeX Font Info:    Font shape `TU/PalatinoLinotype(0)/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 61.
+LaTeX Font Info:    Font shape `TU/PalatinoLinotype(0)/m/it' will be
+(Font)              scaled to size 11.39996pt on input line 61.
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgforn
+ament/vectorian/vectorian72.pgf) [1
+
+
+{d:/Environments/texlive/install-tex/texlive/2025/texmf-var/fonts/map/pdftex/upd
+map/pdftex.map}<./images/pdf/cherry_blossom.pdf>]
+LaTeX Font Info:    Font shape `TU/PalatinoLinotype(0)/m/it' will be
+(Font)              scaled to size 7.59998pt on input line 77.
+LaTeX Font Info:    Font shape `TU/PalatinoLinotype(0)/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 77.
+ [2]) (./frontmatter/certificate_sakura.tex
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgforn
+ament/vectorian/vectorian72.pgf)
+LaTeX Font Info:    Font shape `TU/PalatinoLinotype(0)/m/it' will be
+(Font)              scaled to size 8.54997pt on input line 25.
+LaTeX Font Info:    Font shape `TU/PalatinoLinotype(0)/m/n' will be
+(Font)              scaled to size 13.67995pt on input line 36.
+LaTeX Font Info:    Font shape `TU/PalatinoLinotype(0)/m/n' will be
+(Font)              scaled to size 6.64998pt on input line 36.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 36.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 36.
+ [3
+
+]
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgforn
+ament/vectorian/vectorian72.pgf) [4]) (./frontmatter/halftitle.tex
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgforn
+ament/vectorian/vectorian80.pgf) [5
+
+]) (./frontmatter/titlepage_sakura.tex
+LaTeX Font Info:    Font shape `TU/PalatinoLinotype(0)/m/n' will be
+(Font)              scaled to size 4.74998pt on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 22.
+LaTeX Font Info:    Font shape `TU/PalatinoLinotype(0)/b/n' will be
+(Font)              scaled to size 9.49997pt on input line 23.
+LaTeX Font Info:    Font shape `TU/PalatinoLinotype(0)/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 29.
+
+[6
+
+]) (./frontmatter/copyright.tex [7
+
+]) (./frontmatter/preface_sakura.tex
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgforn
+ament/vectorian/vectorian80.pgf)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgforn
+ament/vectorian/vectorian80.pgf) [8
+
+]
+LaTeX Font Info:    Font shape `TU/PalatinoLinotype(0)/m/it' will be
+(Font)              scaled to size 9.49997pt on input line 40.
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[9
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]) [10
+
+
+]
+\openout2 = chapters/chapter_1.aux
+ (./chapters/chapter_1.tex
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 71.13188pt x 68.04904pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 51.21504pt x 48.99352pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 28.45274pt x 27.21365pt.
+ [1
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Overfull \hbox (1.60681pt too wide) in paragraph at lines 36--44
+\TU/PalatinoLinotype(0)/m/n/10 thế giới này. Và tất nhiên với ngo
+ại hình như vậy thì Hikaru
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[3
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[5
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[7
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[9
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[11
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[13
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (9.28384pt too wide) in paragraph at lines 327--335
+[]\TU/PalatinoLinotype(0)/m/n/10 Trong những tựa game otome hay những b
+ộ shoujo manga
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[15
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[17
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[19
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[21
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[23
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[25
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+Overfull \hbox (3.06802pt too wide) in paragraph at lines 659--662
+[]\TU/PalatinoLinotype(0)/m/n/10 Nụ hôn của hai người chỉ kéo dài v
+ỏn vẹn vài giây, nhưng
+ []
+
+
+Overfull \hbox (7.33865pt too wide) in paragraph at lines 673--683
+\TU/PalatinoLinotype(0)/m/n/10 phóng. Những giọt nước mắt thấm ư
+ớt vai áo Mei, và Hikaru
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[27
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28])
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[29
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+\openout2 = chapters/chapter_11.aux
+ (./chapters/chapter_11.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[31
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[33
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[35
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+Overfull \hbox (1.26048pt too wide) in paragraph at lines 225--227
+[]\TU/PalatinoLinotype(0)/m/n/10 Tôi nhìn theo bóng lưng Tsubaki cầm h
+ộp cơm với gương
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[37
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[39
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[41
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]) [42]
+\openout2 = chapters/chapter_2.aux
+ (./chapters/chapter_2.tex
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 71.13188pt x 68.04904pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 51.21504pt x 48.99352pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 28.45274pt x 27.21365pt.
+ [43
+
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44]
+Overfull \hbox (1.45068pt too wide) in paragraph at lines 44--48
+[]\TU/PalatinoLinotype(0)/m/n/10 ``Chịu, sao vậy nhỉ?'' Sakura sau khi ch
+ắc chắn khẩu súng
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[45
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46]
+Overfull \hbox (1.01929pt too wide) in paragraph at lines 91--93
+[]\TU/PalatinoLinotype(0)/m/n/10 ``Đã rõ.'' Cả Sakura lẫn Jin cùng đ
+ồng thanh, Sakura cũng
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[47
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48]
+Overfull \hbox (1.01306pt too wide) in paragraph at lines 147--149
+[]\TU/PalatinoLinotype(0)/m/n/10 Sau khi ngắt liên lạc với cấp trên th
+ì Rin quay sang những
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[49
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[51
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[53
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (5.55898pt too wide) in paragraph at lines 273--278
+\TU/PalatinoLinotype(0)/m/n/10 trẻ nhưng thực tế thì cũng đã khoảng
+ 40 tuổi, lớn hơn Sakura
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]
+Overfull \hbox (3.58289pt too wide) in paragraph at lines 300--306
+[]\TU/PalatinoLinotype(0)/m/n/10 Sau khi cả đội Alpha đi mất, Adam cũng
+ đi ra khỏi phòng,
+ []
+
+
+Overfull \hbox (2.74174pt too wide) in paragraph at lines 314--319
+[]\TU/PalatinoLinotype(0)/m/n/10 Trước mắt ông ta là một người có 
+chiều cao khoảng 1m91,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[55
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (5.88828pt too wide) in paragraph at lines 328--333
+[]\TU/PalatinoLinotype(0)/m/n/10 ``Được, thế Original vậy.'' Adam vẫn n
+ói chuyện với Arata
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[57
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[59
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[61
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (7.81029pt too wide) in paragraph at lines 506--512
+[]\TU/PalatinoLinotype(0)/m/n/10 Thế nhưng tôi không quan tâm quá nhi
+ều đến mấy chuyện
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[63
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64])
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[65
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+\openout2 = chapters/chapter_3.aux
+ (./chapters/chapter_3.tex
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 71.13188pt x 68.04904pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 51.21504pt x 48.99352pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 28.45274pt x 27.21365pt.
+ [66
+
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[67
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (1.92383pt too wide) in paragraph at lines 38--40
+[]\TU/PalatinoLinotype(0)/m/n/10 ``Em không có tên, em nhớ ngày trước 
+mình thường được
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[69
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [70]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[71
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [72]
+Overfull \hbox (1.71968pt too wide) in paragraph at lines 175--179
+[]\TU/PalatinoLinotype(0)/m/n/10 Sakura ngó nghiêng cái bình một lúc tr
+ước khi nghe tiếng
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[73
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [74]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[75
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (7.8953pt too wide) in paragraph at lines 245--251
+\TU/PalatinoLinotype(0)/m/n/10 là Invest, ngươi cũng phải hiểu chúng ta
+ cần ăn nhiều protein
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76]
+Overfull \hbox (0.21834pt too wide) in paragraph at lines 272--277
+\TU/PalatinoLinotype(0)/m/n/10 đàn ông này bằng tuổi với chủ tịch t
+ập đoàn Nozama, đồng
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[77
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[79
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80]
+Overfull \hbox (2.47581pt too wide) in paragraph at lines 376--380
+[]\TU/PalatinoLinotype(0)/m/n/10 ``Đúng là thể thật...'' Đội trưởng
+ cúi đầu xuống nhìn đống
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[81
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82]
+Overfull \hbox (1.262pt too wide) in paragraph at lines 437--440
+\TU/PalatinoLinotype(0)/m/n/10 ``Ngày mai chúng tôi sẽ triển khai kế ho
+ạch cuối cùng nhằm
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[83
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (2.11557pt too wide) in paragraph at lines 460--463
+[]\TU/PalatinoLinotype(0)/m/n/10 Thật á? Chuyện này tôi mới nghe lần 
+đầu đấy. Thế nhưng
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84]
+Overfull \hbox (8.13806pt too wide) in paragraph at lines 494--498
+[]\TU/PalatinoLinotype(0)/m/n/10 Hiện tại, bọn họ đang ngồi ở qu
+ầy bar tại nhà của Chishiya,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[85
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (1.2775pt too wide) in paragraph at lines 499--502
+\TU/PalatinoLinotype(0)/m/n/10 và xoa đầu Yuzu, tuy biết mình sẽ ch
+ết vào ngày mai nhưng
+ []
+
+
+Overfull \hbox (6.05997pt too wide) in paragraph at lines 508--510
+[]\TU/PalatinoLinotype(0)/m/n/10 ``Mọi người, tôi có chuyện muốn n
+ói.'' Sakura ngập ngừng
+ []
+
+
+Overfull \hbox (1.20639pt too wide) in paragraph at lines 508--510
+\TU/PalatinoLinotype(0)/m/n/10 lên tiếng sau một thoáng do dự, nhưng Ri
+n đã nhanh chóng
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[87
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [88]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[89
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [90]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[91
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [92]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[93
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [94]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[95
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]) [96]
+\openout2 = chapters/chapter_4.aux
+ (./chapters/chapter_4.tex
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 71.13188pt x 68.04904pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 51.21504pt x 48.99352pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 28.45274pt x 27.21365pt.
+ [97
+
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [98]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[99
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [100]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[101
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [102]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[103
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (3.44217pt too wide) in paragraph at lines 164--168
+[]\TU/PalatinoLinotype(0)/m/n/10 ``...Tại sao em lại muốn ngủ riêng?'' T
+ôi tiến đến hỏi Mirai,
+ []
+
+
+Overfull \hbox (0.65741pt too wide) in paragraph at lines 189--194
+[]\TU/PalatinoLinotype(0)/m/n/10 Ra vậy, Mirai vì thấy tôi làm việc v
+ất vả nên là mới không
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [104])
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[105
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+\openout2 = chapters/chapter_5.aux
+ (./chapters/chapter_5.tex
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 71.13188pt x 68.04904pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 51.21504pt x 48.99352pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 28.45274pt x 27.21365pt.
+ [106
+
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[107
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (1.76607pt too wide) in paragraph at lines 58--60
+[]\TU/PalatinoLinotype(0)/m/n/10 ``Cậu có ô không?'' Tôi bật cái ô tro
+ng tay ra và hỏi Hiyori.
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [108]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[109
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [110]
+Overfull \hbox (5.61314pt too wide) in paragraph at lines 115--118
+[]\TU/PalatinoLinotype(0)/m/n/10 ``Cậu, ừm... xinh đẹp, học giỏi, l
+ại còn là lớp trưởng nữa...''
+ []
+
+
+Overfull \hbox (3.91072pt too wide) in paragraph at lines 121--123
+[]\TU/PalatinoLinotype(0)/m/n/10 ``C-có mà! Cậu cao này, tóc mượt này,
+ mũi cao này, khuôn
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[111
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]) [112]
+\openout2 = chapters/chapter_6.aux
+ (./chapters/chapter_6.tex
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 71.13188pt x 68.04904pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 51.21504pt x 48.99352pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 28.45274pt x 27.21365pt.
+ [113
+
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [114]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[115
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [116]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[117
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [118]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[119
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (4.5508pt too wide) in paragraph at lines 175--180
+[]\TU/PalatinoLinotype(0)/m/n/10 Ngay trước khi câu hỏi ``Để làm gì 
+vậy?'' buột khỏi miệng,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [120]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[121
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [122]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[123
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [124]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[125
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [126]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[127
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]) [128]
+\openout2 = chapters/chapter_7.aux
+ (./chapters/chapter_7.tex
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 71.13188pt x 68.04904pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 51.21504pt x 48.99352pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 28.45274pt x 27.21365pt.
+ [129
+
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [130]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[131
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [132]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[133
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [134]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[135
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (2.84846pt too wide) in paragraph at lines 186--190
+\TU/PalatinoLinotype(0)/m/n/10 xinh đẹp, giỏi giang và luôn được v
+ây quanh bởi mọi người,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [136]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[137
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (7.84892pt too wide) in paragraph at lines 230--232
+[]\TU/PalatinoLinotype(0)/m/n/10 ``Lắm chuyện!'' Saki quăng điện tho
+ại thẳng xuống giường
+ []
+
+) [138]
+\openout2 = chapters/chapter_8.aux
+ (./chapters/chapter_8.tex
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 71.13188pt x 68.04904pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 51.21504pt x 48.99352pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 28.45274pt x 27.21365pt.
+ [139
+
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [140]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[141
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [142]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[143
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (1.11823pt too wide) in paragraph at lines 114--117
+[]\TU/PalatinoLinotype(0)/m/n/10 ``Ngại sao? Đáng yêu ghê đó.'' Kuro n
+ở một nụ cười trông
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [144]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[145
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]) [146]
+\openout2 = chapters/chapter_9.aux
+ (./chapters/chapter_9.tex
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 71.13188pt x 68.04904pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 51.21504pt x 48.99352pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 28.45274pt x 27.21365pt.
+ [147
+
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [148]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[149
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [150]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[151
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [152]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[153
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]) [154]
+\openout2 = chapters/chapter_10.aux
+ (./chapters/chapter_10.tex
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 71.13188pt x 68.04904pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 51.21504pt x 48.99352pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 2.
+(luatex.def)             Requested size: 28.45274pt x 27.21365pt.
+ [155
+
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [156]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[157
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [158]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[159
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [160]
+Overfull \hbox (3.95087pt too wide) in paragraph at lines 172--173
+[]\TU/PalatinoLinotype(0)/m/n/10 ``Ito, ah nè!'' Tsubaki lấy một miếng so
+cola đưa đến miệng
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[161
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [162]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[163
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (2.80515pt too wide) in paragraph at lines 250--253
+[]\TU/PalatinoLinotype(0)/m/n/10 ``Vậy mà lại quên béng chuyện socola 
+mất.'' Ito ngả người
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [164])
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[165
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+\openout2 = chapters/chapter_12.aux
+ (./chapters/chapter_12.tex
+Overfull \hbox (9.29619pt too wide) in paragraph at lines 17--20
+\TU/PalatinoLinotype(0)/m/n/10 lại không hề kiêu căng như hình tượng
+ tiểu thư thông thường
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [166
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[167
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (9.2049pt too wide) in paragraph at lines 60--66
+[]\TU/PalatinoLinotype(0)/m/n/10 Trước mặt tôi đây là Harumi, tôi hay g
+ọi cậu ấy là Harumin
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [168]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[169
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [170]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[171
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [172]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[173
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [174]
+Overfull \hbox (4.5493pt too wide) in paragraph at lines 285--289
+\TU/PalatinoLinotype(0)/m/n/10 có những chị hầu gái đã quá quen m
+ặt. Bố mẹ rất yêu thương
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[175
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (3.65327pt too wide) in paragraph at lines 308--311
+[]\TU/PalatinoLinotype(0)/m/n/10 Ở trên lớp, tôi thường nghe những ng
+ười bạn xung quanh
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [176]
+Overfull \hbox (5.83115pt too wide) in paragraph at lines 319--321
+[]\TU/PalatinoLinotype(0)/m/n/10 Tôi luôn cố để đồng cảm với nh
+ững người như vậy, nhưng
+ []
+
+
+Overfull \hbox (0.3838pt too wide) in paragraph at lines 322--325
+\TU/PalatinoLinotype(0)/m/n/10 cảm với câu chuyện tình yêu của nh
+ững người xung quanh,
+ []
+
+
+Overfull \hbox (1.06718pt too wide) in paragraph at lines 350--353
+[]\TU/PalatinoLinotype(0)/m/n/10 Tại sao tôi lại luôn muốn làm những chuy
+ện đó với Rino?
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[177
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [178]
+Overfull \hbox (1.61609pt too wide) in paragraph at lines 384--386
+[]\TU/PalatinoLinotype(0)/m/n/10 Phải rồi nhỉ, tôi ngốc thật, chả 
+có cái tình bạn bình thường
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[179
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [180]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[181
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [182]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[183
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [184]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[185
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [186]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[187
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (5.02394pt too wide) in paragraph at lines 667--669
+[]\TU/PalatinoLinotype(0)/m/n/10 ``Nói cái gì thế hả?'' Harumin khoác ta
+y qua vai của Mayu,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [188]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[189
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]) [190]
+\openout2 = chapters/chapter_13.aux
+ (./chapters/chapter_13.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[191
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [192]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[193
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [194]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[195
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [196]
+Overfull \hbox (0.12398pt too wide) in paragraph at lines 189--193
+[]\TU/PalatinoLinotype(0)/m/n/10 Mà nghĩ cũng hài thật, Harumin hồi tr
+ước chính là người
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[197
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [198]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[199
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [200]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[201
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (2.92113pt too wide) in paragraph at lines 340--343
+[]\TU/PalatinoLinotype(0)/m/n/10 Hai đứa chúng tôi nằm bên cạnh nhau 
+trên giường, chẳng
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [202])
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[203
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+\openout2 = chapters/chapter_14.aux
+ (./chapters/chapter_14.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [204
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[205
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [206]
+Overfull \hbox (0.68839pt too wide) in paragraph at lines 90--94
+\TU/PalatinoLinotype(0)/m/n/10 mắn mà có được tài năng như tôi. Nh
+ưng họ có nhiệt huyết,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[207
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [208]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[209
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [210]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[211
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [212]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[213
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]) [214]
+\openout2 = chapters/chapter_15.aux
+ (./chapters/chapter_15.tex
+Overfull \hbox (2.69537pt too wide) in paragraph at lines 9--11
+[]\TU/PalatinoLinotype(0)/m/n/10 ``Méo có...'' Tôi lẩm bẩm khi đang n
+ằm dài ra trong phòng
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[215
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+
+
+
+]
+Overfull \hbox (0.44551pt too wide) in paragraph at lines 49--50
+[]\TU/PalatinoLinotype(0)/m/it/10 ``Tuyệt đối không! Ngày mai em có b
+ài học quan trọng!'' Serika
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [216]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[217
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [218]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[219
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [220]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[221
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]) [222]
+\openout2 = chapters/chapter_16.aux
+ (./chapters/chapter_16.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[223
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+
+
+
+]
+Overfull \hbox (0.31572pt too wide) in paragraph at lines 31--34
+\TU/PalatinoLinotype(0)/m/n/10 cực đỉnh, giọng hát ngọt ngào truy
+ền đến tận trái tim người
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [224]
+Overfull \hbox (6.48198pt too wide) in paragraph at lines 75--78
+\TU/PalatinoLinotype(0)/m/n/10 Misaki nhìn vào lịch trình hiện tại đ
+ể trả lời tôi. ``Buổi concert
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[225
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [226]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[227
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [228]
+Overfull \hbox (5.9873pt too wide) in paragraph at lines 188--190
+[]\TU/PalatinoLinotype(0)/m/n/10 ``Chị đấy nhé...'' Misaki ngẩng đầu l
+ên nhìn tôi. ``Bộ không
+ []
+
+)
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[229
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+\openout2 = chapters/chapter_17.aux
+ (./chapters/chapter_17.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [230
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[231
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [232]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[233
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [234])
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[235
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+\openout2 = chapters/chapter_18.aux
+ (./chapters/chapter_18.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [236
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[237
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [238]
+Overfull \hbox (3.16699pt too wide) in paragraph at lines 79--82
+[]\TU/PalatinoLinotype(0)/m/n/10 ``Không dễ thế đâu.'' Sayaka véo má Im
+uri đang cao hứng
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[239
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [240]
+Overfull \hbox (1.49396pt too wide) in paragraph at lines 159--164
+\TU/PalatinoLinotype(0)/m/n/10 cũng rất muốn được hát trước mọi 
+người, thế nên là thường
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[241
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [242])
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[243
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+\openout2 = chapters/chapter_19.aux
+ (./chapters/chapter_19.tex
+Overfull \hbox (1.32233pt too wide) in paragraph at lines 13--15
+[]\TU/PalatinoLinotype(0)/m/n/10 Dù thành tích học tập cũng khá tốt, nh
+ưng trốn học nhiều
+ []
+
+
+Overfull \hbox (1.55576pt too wide) in paragraph at lines 16--19
+[]\TU/PalatinoLinotype(0)/m/n/10 ``Bài kiểm tra sắp tới phải thể hi
+ện cho thật tốt mới được.''
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [244
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[245
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (3.02003pt too wide) in paragraph at lines 65--67
+[]\TU/PalatinoLinotype(0)/m/n/10 ``Nói gì vậy?'' Tôi trở mình một ch
+út để nhìn được Miyuki
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [246]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[247
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [248])
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[249
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+\openout2 = chapters/chapter_20.aux
+ (./chapters/chapter_20.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [250
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[251
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [252]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[253
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [254])
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[255
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+\openout2 = chapters/chapter_21.aux
+ (./chapters/chapter_21.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [256
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[257
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (4.21683pt too wide) in paragraph at lines 75--78
+\TU/PalatinoLinotype(0)/m/n/10 cơn buồn ngủ khuất phục tâm trí mình th
+ì đột nhiên Haruka
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [258]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[259
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (7.72058pt too wide) in paragraph at lines 140--142
+[]\TU/PalatinoLinotype(0)/m/n/10 Tiết học đã trôi qua hơn một nửa, 
+và vẫn chưa thấy Haruka
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [260])
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[261
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+\openout2 = chapters/chapter_22.aux
+ (./chapters/chapter_22.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [262
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[263
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [264]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[265
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (4.57556pt too wide) in paragraph at lines 136--138
+[]\TU/PalatinoLinotype(0)/m/n/10 ``Với lại, không phải đã nói chỉ c
+ó ba giây thôi sao!? Không
+ []
+
+) [266]
+\openout2 = chapters/chapter_23.aux
+ (./chapters/chapter_23.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[267
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+
+
+
+]
+Overfull \hbox (7.42833pt too wide) in paragraph at lines 36--41
+\TU/PalatinoLinotype(0)/m/n/10 thì Akemi sẽ cắm đầu vào đọc sách. 
+Nó không phải là manga,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [268]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[269
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Overfull \hbox (6.75885pt too wide) in paragraph at lines 85--88
+[]\TU/PalatinoLinotype(0)/m/n/10 ``Tớ quên mang hộp bút rồi, Nitori ơi c
+ứu tớ với...'' Kogane
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [270]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[271
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [272]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[273
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+])
+Overfull \hbox (1.61612pt too wide) in paragraph at lines 217--76
+[]\TU/PalatinoLinotype(0)/m/n/10 Lần sau, tớ nhất định sẽ đãi c
+ậu một bữa thật thịnh soạn... 
+ []
+
+[274]
+\openout2 = chapters/chapter_24.aux
+ (./chapters/chapter_24.tex
+Overfull \hbox (3.09583pt too wide) in paragraph at lines 3--6
+[]\TU/PalatinoLinotype(0)/m/n/10 Tôi sẽ lại phải bước đi trên con 
+đường lát gạch của trường,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[275
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [276]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[277
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [278]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[279
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [280])
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[281
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+\openout2 = chapters/chapter_25.aux
+ (./chapters/chapter_25.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [282
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[283
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [284]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[285
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [286]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[287
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [288])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+[289
+Missing character: There is no ♡ (U+2661) in font "name:Palatino Linotype/I:mo
+de=harf;script=latn;language=dflt;+tlig;"!
+] [290]
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgforn
+ament/vectorian/vectorian72.pgf)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgforn
+ament/vectorian/vectorian80.pgf)
+No file main_limited.toc.
+\tf@toc=\write4
+
+\openout4 = main_limited.toc
+[291
+
+
+
+] (./backmatter/bonus_sakura.tex
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgforn
+ament/vectorian/vectorian72.pgf)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgforn
+ament/vectorian/vectorian72.pgf) [292
+
+
+]) (./backmatter/colophon_sakura.tex
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 8.
+(luatex.def)             Requested size: 10.58469pt x 10.12323pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 8.
+(luatex.def)             Requested size: 10.97629pt x 10.49542pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 8.
+(luatex.def)             Requested size: 14.24069pt x 13.6217pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 8.
+(luatex.def)             Requested size: 11.04749pt x 10.56241pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 8.
+(luatex.def)             Requested size: 14.95271pt x 14.29907pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 8.
+(luatex.def)             Requested size: 6.78844pt x 6.49078pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 8.
+(luatex.def)             Requested size: 6.2896pt x 6.01439pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 8.
+(luatex.def)             Requested size: 6.03735pt x 5.76875pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 8.
+(luatex.def)             Requested size: 16.69366pt x 15.96643pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 8.
+(luatex.def)             Requested size: 10.72404pt x 10.25722pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 8.
+(luatex.def)             Requested size: 16.75533pt x 16.02599pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 8.
+(luatex.def)             Requested size: 8.90536pt x 8.51543pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 8.
+(luatex.def)             Requested size: 9.4194pt x 9.0067pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 8.
+(luatex.def)             Requested size: 14.4022pt x 13.77803pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 8.
+(luatex.def)             Requested size: 8.42563pt x 8.05392pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 8.
+(luatex.def)             Requested size: 12.67818pt x 12.12555pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 8.
+(luatex.def)             Requested size: 9.3773pt x 8.96948pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 8.
+(luatex.def)             Requested size: 13.42448pt x 12.84013pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 8.
+(luatex.def)             Requested size: 13.19612pt x 12.62427pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 8.
+(luatex.def)             Requested size: 7.32245pt x 7.00438pt.
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgforn
+ament/vectorian/vectorian73.pgf)
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgforn
+ament/vectorian/vectorian73.pgf)
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 32.
+(luatex.def)             Requested size: 11.38092pt x 10.88248pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 32.
+(luatex.def)             Requested size: 11.38092pt x 10.88248pt.
+
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgforn
+ament/vectorian/vectorian72.pgf)
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 50.
+(luatex.def)             Requested size: 14.22636pt x 13.60683pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 50.
+(luatex.def)             Requested size: 14.22636pt x 13.60683pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 50.
+(luatex.def)             Requested size: 14.22636pt x 13.60683pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 50.
+(luatex.def)             Requested size: 14.22636pt x 13.60683pt.
+File: images/pdf/cherry_blossom.pdf Graphic file (type pdf)
+<use images/pdf/cherry_blossom.pdf>
+Package luatex.def Info: images/pdf/cherry_blossom.pdf  used on input line 50.
+(luatex.def)             Requested size: 14.22636pt x 13.60683pt.
+ [293
+
+
+]
+(d:/Environments/texlive/install-tex/texlive/2025/texmf-dist/tex/generic/pgforn
+ament/vectorian/vectorian72.pgf)) [294] (./main_limited.aux
+(./chapters/chapter_1.aux) (./chapters/chapter_11.aux)
+(./chapters/chapter_2.aux) (./chapters/chapter_3.aux) (./chapters/chapter_4.aux
+) (./chapters/chapter_5.aux) (./chapters/chapter_6.aux)
+(./chapters/chapter_7.aux) (./chapters/chapter_8.aux) (./chapters/chapter_9.aux
+) (./chapters/chapter_10.aux) (./chapters/chapter_12.aux)
+(./chapters/chapter_13.aux) (./chapters/chapter_14.aux)
+(./chapters/chapter_15.aux) (./chapters/chapter_16.aux)
+(./chapters/chapter_17.aux) (./chapters/chapter_18.aux)
+(./chapters/chapter_19.aux) (./chapters/chapter_20.aux)
+(./chapters/chapter_21.aux) (./chapters/chapter_22.aux)
+(./chapters/chapter_23.aux) (./chapters/chapter_24.aux)
+(./chapters/chapter_25.aux))
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-29>
+ ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+)
+
+Here is how much of LuaTeX's memory you used:
+ 25890 strings out of 476081
+ 100000,1144653 words of node,token memory allocated
+ 448 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 55 glue_spec,
+ 5 attribute_list, 2 write nodes
+   avail lists: 2:3919,3:3319,4:76,5:177,6:43,7:3226,8:2,9:1918,10:13,11:8
+ 46650 multiletter control sequences out of 65536+600000
+ 77 fonts using 39522007 bytes
+ 91i,12n,103p,941b,848s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Windows/Fonts/segoesc.ttf><c:/Windows/Fonts/palai.ttf><c:/Windows/Fonts/pala
+b.ttf><c:/Windows/Fonts/pala.ttf><d:/Environments/texlive/install-tex/texlive/20
+25/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on main_limited.pdf (304 pages, 692579 bytes).
+
+PDF statistics: 1351 PDF objects out of 1440 (max. 8388607)
+ 1017 compressed objects within 11 object streams
+ 306 named destinations out of 1000 (max. 131072)
+ 96 words of extra memory for PDF output out of 10000 (max. 100000000)
+
