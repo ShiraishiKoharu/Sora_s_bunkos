@@ -1,0 +1,16 @@
+# --- .gitignore ---
+# Bỏ qua toàn bộ file rác do LaTeX sinh ra
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.xdv
+chapters/*.aux
+chapters/*.log
+# Bỏ qua thư mục build (Nếu bạn xuất PDF vào đây)
+build/
