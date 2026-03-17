@@ -1,21 +1,19 @@
 % ═══════════════════════════════════════════════════════════════
-% FILE: main_limited.tex
-% DESCRIPTION: Main entry point for Limited Sakura Edition
+% FILE: main_limited.tex (FIXED)
 % ═══════════════════════════════════════════════════════════════
 
-\documentclass[9pt, openany, twoside]{book}
+\documentclass[10pt, openright, twoside]{book}
 
 % ───────────────────────────────────────
 % EDITION FLAGS
 % ───────────────────────────────────────
 \newif\iflimitededition
 \limitededitiontrue
-
 \newif\ifwinteredition
 \wintereditionfalse
 
 % ───────────────────────────────────────
-% PREAMBLE
+% PREAMBLE (hyperref phải load CUỐI cùng)
 % ───────────────────────────────────────
 \input{preamble/packages}
 \input{preamble/fonts}
@@ -25,6 +23,18 @@
 \input{preamble/chapters_sakura}
 \input{preamble/commands_shared}
 \input{preamble/commands_sakura}
+\input{preamble/toc_sakura}
+\input{preamble/typography.tex}
+% Hyperref load sau tất cả (fix linking)
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=sakura_dark,
+    urlcolor=sakura_dark,
+    pdftitle={30 Ngày 30 Oneshots - Limited Sakura Edition},
+    pdfauthor={Akihiko Sora}
+}
 
 % ═══════════════════════════════════════════════════════════════
 \begin{document}
@@ -35,13 +45,25 @@
 % ───────────────────────────────────────
 \frontmatter
 
-\input{frontmatter/cover_sakura}
-\input{frontmatter/certificate_sakura}
-\input{frontmatter/halftitle}
-\input{frontmatter/titlepage_sakura}
-\input{frontmatter/copyright}
-\input{frontmatter/preface_sakura}
+\input{frontmatter/halftitle}    % 1. Đập vào mắt đầu tiên: Tĩnh lặng, 1 dòng chữ
+\cleardoublepage
 
+\input{frontmatter/frontispiece_sakura} % 2. Khoe độ xịn: Logo Limited, trang trí (Bản cũ cover_sakura)
+\cleardoublepage
+
+\input{frontmatter/titlepage_sakura}    % 3. Trang chính thức: Kiến trúc bất đối xứng, rõ ràng tác giả
+\cleardoublepage
+
+\input{frontmatter/certificate_sakura}  % 4. Giấy chứng nhận
+\cleardoublepage
+
+\input{frontmatter/preface_sakura}      % 5. Lời nói đầu
+\cleardoublepage
+
+\tableofcontents                        % 6. Mục lục
+
+% <<< TOC ĐƯA VỀ ĐÂY (trước mainmatter) + đẹp hơn
+\tableofcontents
 
 \cleardoublepage
 
@@ -51,7 +73,6 @@
 \mainmatter
 
 \include{chapters/chapter_1}
-\include{chapters/chapter_11}
 \include{chapters/chapter_2}
 \include{chapters/chapter_3}
 \include{chapters/chapter_4}
@@ -61,7 +82,7 @@
 \include{chapters/chapter_8}
 \include{chapters/chapter_9}
 \include{chapters/chapter_10}
-
+\include{chapters/chapter_11}
 \include{chapters/chapter_12}
 \include{chapters/chapter_13}
 \include{chapters/chapter_14}
@@ -76,10 +97,14 @@
 \include{chapters/chapter_23}
 \include{chapters/chapter_24}
 \include{chapters/chapter_25}
-%\include{chapters/chapter_22}
+\include{chapters/chapter_26}
+\include{chapters/chapter_27}
+\include{chapters/chapter_28}
+\include{chapters/chapter_29}
+\include{chapters/chapter_30}
 
-% Add more chapters as needed
-\tableofcontents
+% ... bạn thêm 30 chapter ở đây (thứ tự nào cũng được, \storyheader sẽ tự sắp)
+
 % ───────────────────────────────────────
 % BACK MATTER
 % ───────────────────────────────────────
@@ -88,6 +113,4 @@
 \input{backmatter/bonus_sakura}
 \input{backmatter/colophon_sakura}
 
-% ═══════════════════════════════════════════════════════════════
 \end{document}
-% ═══════════════════════════════════════════════════════════════

@@ -1,0 +1,95 @@
+% ==========================================
+% FILE: Full_Cover.tex (ĐỘC LẬP HOÀN TOÀN)
+% ==========================================
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{calc, positioning}
+\usepackage{xcolor}
+
+% --- BƯỚC 1: KHAI BÁO BIẾN SỐ (CSS VARIABLES) ---
+% Hãy thay đổi các con số này, toàn bộ thiết kế sẽ tự động co giãn!
+\pgfmathsetmacro{\BookW}{13}     % Bề ngang 1 trang (cm) - Chuẩn B6
+\pgfmathsetmacro{\BookH}{19}     % Bề dọc 1 trang (cm)
+\pgfmathsetmacro{\Spine}{1.8}    % Độ dày GÁY SÁCH (cm) - Tính theo số trang
+\pgfmathsetmacro{\Flap}{8}       % Độ rộng TAY GẤP (cm)
+\pgfmathsetmacro{\Bleed}{0.3}    % Lề xén/Bleed (cm) - Chuẩn xưởng in
+
+% Tính toán tự động tổng kích thước (Cộng dồn)
+\pgfmathsetmacro{\TotalW}{\Bleed + \Flap + \BookW + \Spine + \BookW + \Flap + \Bleed}
+\pgfmathsetmacro{\TotalH}{\Bleed + \BookH + \Bleed}
+
+% Ép khổ giấy PDF đúng bằng tổng kích thước vừa tính
+\usepackage[
+    paperwidth=\TotalW cm, 
+    paperheight=\TotalH cm, 
+    margin=0pt
+]{geometry}
+
+% Màu sắc
+\definecolor{coverbg}{cmyk}{0, 0.05, 0.1, 0} % Màu nền kem nhẹ
+\definecolor{foldline}{cmyk}{0, 1, 1, 0}     % Màu đỏ (Chỉ để nhìn vạch gấp, lúc in sẽ ẩn đi)
+
+\begin{document}
+\thispagestyle{empty}
+\pagecolor{coverbg}
+
+\begin{tikzpicture}[remember picture, overlay]
+
+    % --- BƯỚC 2: KHAI BÁO CÁC ĐIỂM CHỐT (CSS GRID) ---
+    % Đặt gốc (0,0) tại góc dưới cùng bên trái của trang giấy
+    \coordinate (Origin) at (current page.south west);
+
+    % Tính toán tọa độ X của các đường gấp
+    \pgfmathsetmacro{\XFlapLeft}{\Bleed + \Flap}
+    \pgfmathsetmacro{\XSpineLeft}{\XFlapLeft + \BookW}
+    \pgfmathsetmacro{\XSpineRight}{\XSpineLeft + \Spine}
+    \pgfmathsetmacro{\XFlapRight}{\XSpineRight + \BookW}
+
+    % Vẽ các đường đứt nét mô phỏng NẾP GẤP (Bản in thật hãy comment/ẩn phần này đi)
+    \draw[foldline, dashed] ($(Origin) + (\XFlapLeft, 0)$) -- ($(Origin) + (\XFlapLeft, \TotalH)$);
+    \draw[foldline, dashed] ($(Origin) + (\XSpineLeft, 0)$) -- ($(Origin) + (\XSpineLeft, \TotalH)$);
+    \draw[foldline, dashed] ($(Origin) + (\XSpineRight, 0)$) -- ($(Origin) + (\XSpineRight, \TotalH)$);
+    \draw[foldline, dashed] ($(Origin) + (\XFlapRight, 0)$) -- ($(Origin) + (\XFlapRight, \TotalH)$);
+
+    % --- BƯỚC 3: ĐẶT NỘI DUNG VÀO GIỮA CÁC KHUNG (FLEX CENTER) ---
+
+    % 1. Tay gấp Trái (Tóm tắt truyện)
+    \node[text width=\Flap cm - 2cm, align=justify, anchor=center]
+    at ($(Origin) + (\Bleed + \Flap/2, \TotalH/2)$) {
+        \sffamily\small
+        \textbf{TÓM TẮT}\\
+        Mười năm trước, cánh cổng ma thuật mở ra... (Chữ tự động Wrap theo khung tay gấp).
+    };
+
+    % 2. Bìa Sau (Back Cover - Ảnh & Barcode)
+    \node[anchor=center]
+    at ($(Origin) + (\XFlapLeft + \BookW/2, \TotalH/2)$) {
+        \Huge \textbf{BÌA SAU}
+    };
+
+    % 3. Gáy Sách (Spine - Xoay ngang 90 độ)
+    \node[anchor=center, rotate=-90]
+    at ($(Origin) + (\XSpineLeft + \Spine/2, \TotalH/2)$) {
+        \Large \textbf{TÊN TRUYỆN — TẬP 1}
+    };
+
+    % 4. Bìa Trước (Front Cover - Tên truyện & Tác giả)
+    \node[anchor=center]
+    at ($(Origin) + (\XSpineRight + \BookW/2, \TotalH/2)$) {
+        \begin{tabular}{c}
+            \Huge \textbf{TÊN TRUYỆN} \\
+            \vspace{1cm}              \\
+            \Large \textit{Tác giả: Akihiko Sora}
+        \end{tabular}
+    };
+
+    % 5. Tay gấp Phải (Giới thiệu Tác giả)
+    \node[text width=\Flap cm - 2cm, align=center, anchor=center]
+    at ($(Origin) + (\XFlapRight + \Flap/2, \TotalH/2)$) {
+        \sffamily\small
+        \textbf{TÁC GIẢ}\\
+        Một người thích FOSS và đam mê toán học.
+    };
+
+\end{tikzpicture}
+\end{document}
