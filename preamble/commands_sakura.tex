@@ -19,58 +19,62 @@
 \newcommand{\sakuraline}[1][5]{%
     \begin{center}
         \foreach \i in {1,...,#1} {%
-            \sakurafade[0.6][0.5cm]\hspace{2mm}%
-        }%
+                \sakurafade[0.6][0.5cm]\hspace{2mm}%
+            }%
     \end{center}
 }
 
 \newcommand{\sakurafall}[1][20]{%
     \begin{tikzpicture}[remember picture, overlay]
         \foreach \i in {1,...,#1} {
-            \pgfmathsetmacro{\xpos}{5+rnd*90}
-            \pgfmathsetmacro{\ypos}{5+rnd*130}
-            \pgfmathsetmacro{\rot}{rnd*360}
-            \pgfmathsetmacro{\size}{0.2+rnd*0.4}
-            \pgfmathsetmacro{\opac}{0.05+rnd*0.15}
-            \node[opacity=\opac, rotate=\rot] 
+                \pgfmathsetmacro{\xpos}{5+rnd*90}
+                \pgfmathsetmacro{\ypos}{5+rnd*130}
+                \pgfmathsetmacro{\rot}{rnd*360}
+                \pgfmathsetmacro{\size}{0.2+rnd*0.4}
+                \pgfmathsetmacro{\opac}{0.05+rnd*0.15}
+                \node[opacity=\opac, rotate=\rot]
                 at ($(current page.south west) + (\xpos mm, \ypos mm)$) {
-                \includegraphics[width=\size cm]{cherry_blossom}
-            };
-        }
+                    \includegraphics[width=\size cm]{cherry_blossom}
+                };
+            }
     \end{tikzpicture}%
 }
 
 % ───────────────────────────────────────
-% STORY HEADER
+% STORY HEADER (REFACTORED - THE ZEN STYLE)
 % ───────────────────────────────────────
 \newcommand{\storyheader}[2]{%
-    \clearpage
-    \thispagestyle{plain}
-    
-    \vspace*{0.5cm}
-    
+    \cleardoublepage
+    \phantomsection
+    \thispagestyle{empty} % Dọn sạch Header/Footer ở trang mở đầu truyện
+
+    \vspace*{3cm} % Khoảng sụt khổng lồ từ trên xuống tạo sự yên tĩnh
+
     \begin{center}
-        \sakurafade[0.7][2.5cm]
-        
-        \vspace{0.8cm}
-        
-        \parbox{0.88\textwidth}{%
+        % Tên truyện cực to, gọn gàng
+        \parbox{0.85\textwidth}{%
             \centering
-            {\titlefont\large\textbf{#1}}%
+            {\titlefont\huge\bfseries\textcolor{sakura_dark}{#1}}%
         }
-        
-        \vspace{0.5cm}
-        
-        \sakurafade[0.5][1.8cm]
+
+        \vspace{1cm}
+
+        % CHỈ MỘT điểm nhấn duy nhất, bé bé xinh xinh
+        \includegraphics[width=0.8cm]{cherry_blossom.pdf}
     \end{center}
-    
+
+    \vspace{0.5cm}
+
+    % Câu quote lót nằm lệch phải, màu xám thanh lịch
     \begin{flushright}
-        \small\textcolor{sakura_dark}{\textit{#2}}\\[0.3cm]
-        \sakurafade[0.4][1cm]
+        \begin{minipage}{0.6\textwidth}
+            \flushright
+            \small\itshape\textcolor{bunko_gray}{#2}
+        \end{minipage}
     \end{flushright}
-    
-    \vspace{0.6cm}
-    
+
+    \vspace{2cm} % Đẩy khoảng cách an toàn trước khi vào text chính
+
     \addcontentsline{toc}{chapter}{#1}
     \markboth{#1}{#1}
 }
@@ -80,13 +84,13 @@
 % ───────────────────────────────────────
 \newcommand{\storyfooter}[1]{%
     \par\vspace{1cm}
-    
+
     \begin{center}
         \sakurafade[0.3][0.6cm]\quad
         \sakurafade[0.5][1cm]\quad
         \sakurafade[0.3][0.6cm]
     \end{center}
-    
+
     \ifstrempty{#1}{}{%
         \vspace{0.5cm}
         \begin{flushright}

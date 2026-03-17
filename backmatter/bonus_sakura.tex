@@ -1,28 +1,31 @@
-% ═══════════════════════════════════════════════════════════════
-% FILE: backmatter/bonus_sakura.tex
-% ═══════════════════════════════════════════════════════════════
-
-\clearpage
+\cleardoublepage
 \thispagestyle{empty}
+% \pagecolor{bunko_paper} % XÓA NGAY! 
+
+\vspace*{\fill} % Lò xo trên
 
 \begin{center}
-    \vspace*{3cm}
+    {\titlefont\LARGE\textcolor{sakura_dark}{NỘI DUNG ĐẶC BIỆT}}
+    \vspace{0.5cm}
     
-    \textcolor{sakura}{\pgfornament[width=4cm]{72}}
+    {\small\itshape\textcolor{bunko_gray}{Chỉ có trong phiên bản Limited Edition}}
+    \vspace{0.8cm}
     
-    \vspace{1cm}
-    
-    {\titlefont\LARGE\textcolor{sakura_dark}{Nội dung đặc biệt}}
-    
-    \vspace{0.3cm}
-    
-    {\small\textit{Chỉ có trong Limited Edition}}
-    
-    \vspace{1cm}
-    
-    \textcolor{sakura}{\pgfornament[width=4cm]{72}}
+    \includegraphics[width=0.8cm]{cherry_blossom.pdf} % 1 icon nhỏ bé làm điểm tụ
 \end{center}
 
-\clearpage
+\vspace*{\fill} % Lò xo dưới
+\cleardoublepage
 
-% Add your bonus content here
+% === Tự động thêm trang trắng đến bội số 16 ===
+\makeatletter
+\count0=\value{page}
+\divide\count0 by 16
+\multiply\count0 by 16
+\ifnum\value{page}>\count0
+    \advance\count0 by 16
+\fi
+\loop\ifnum\value{page}<\count0
+\null\cleardoublepage
+\repeat
+\makeatother

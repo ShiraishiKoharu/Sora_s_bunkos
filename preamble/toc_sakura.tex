@@ -1,0 +1,19 @@
+% ═══════════════════════════════════════════════════════════════
+% FILE: preamble/toc_sakura.tex
+% ═══════════════════════════════════════════════════════════════
+
+% Khoảng cách đẹp, không chạm số
+\renewcommand{\cftchapfont}{\titlefont\normalsize}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}  % leader dot chuẩn
+\setlength{\cftchapnumwidth}{3.5em}                     % số chương rộng ra
+\setlength{\cftchapindent}{0em}
+\setlength{\cftaftertoctitleskip}{20pt}
+
+% Ornament trước mỗi chapter trong TOC (thay hình thoải mái)
+\newcommand{\tocornament}[1]{%
+    \includegraphics[width=1.1cm]{#1.pdf}%
+}
+
+\renewcommand{\cftchapaftersnum}{%
+    \quad\tocornament{ornament-small} \quad% ← thay tên file ornament của bạn
+}

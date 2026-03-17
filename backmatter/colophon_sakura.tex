@@ -1,76 +1,48 @@
 % ═══════════════════════════════════════════════════════════════
-% FILE: backmatter/colophon_sakura.tex
+% FILE: backmatter/colophon_sakura.tex (REFACTORED)
 % ═══════════════════════════════════════════════════════════════
 
-\clearpage
+\cleardoublepage              
 \thispagestyle{empty}
+% TUYỆT ĐỐI KHÔNG DÙNG \pagecolor Ở ĐÂY NỮA NHÉ!
 
-\sakurafall[20]
-
-\begin{tikzpicture}[remember picture, overlay]
-    \node[anchor=north east, xshift=-5mm, yshift=-5mm, opacity=0.3] 
-        at (current page.north east) 
-        {\pgfornament[width=4cm, color=sakura]{73}};
-    
-    \node[anchor=south west, xshift=5mm, yshift=5mm, opacity=0.3] 
-        at (current page.south west) 
-        {\pgfornament[width=4cm, color=sakura, symmetry=c]{73}};
-\end{tikzpicture}
-
-\vspace*{1.5cm}
+\vspace*{\fill} % ĐẨY TOÀN BỘ KHỐI NÀY XUỐNG ĐÁY TRANG
 
 \begin{center}
-    \tikz{
-        \node[
-            draw=sakura_dark, 
-            rounded corners=10pt, 
-            inner sep=6pt,
-            fill=sakura!20
-        ] {
-            \textcolor{sakura_dark}{\footnotesize 
-                \sakura[0.4cm]\ Limited Sakura Edition \sakura[0.4cm]
-            }
-        };
-    }
-    
-    \vspace{1cm}
-    
-    \textcolor{sakura}{\pgfornament[width=4cm]{72}}
-    
-    \vspace{0.8cm}
-    
-    {\titlefont\LARGE\textcolor{sakura_dark}{30 Ngày / 30 Oneshots}}
-    
-    \vspace{0.3cm}
-    
-    {\textit{Tuyển tập truyện ngắn}}
-    
-    \vspace{0.8cm}
-    
-    \sakuraline[5]
-    
-    \vspace{1cm}
-    
-    \begin{tabular}{rl}
-        \textcolor{sakura_dark}{\scriptsize TÁC GIẢ:} & \textbf{Akihiko Sora} \\[0.3cm]
-        \textcolor{sakura_dark}{\scriptsize BIÊN TẬP:} & Mitsuki Yumei \\
-    \end{tabular}
-    
-    \vspace{1cm}
-    
-    \tikz{
-        \draw[sakura_dark, dashed] (-1.5,0) -- (1.5,0);
-        \node[fill=bunko_paper, inner sep=3pt] at (0,0) 
-            {\textcolor{sakura_dark}{\footnotesize No. \rule{0.8cm}{0.4pt} / 500}};
-    }
-    
-    \vspace{1.5cm}
-    
-    \textcolor{sakura}{\pgfornament[width=4cm]{72}}
-    
-    \vspace{0.5cm}
-    
-    {\footnotesize\textcolor{sakura_dark}{Limited Sakura Edition — \the\year}}
-\end{center}
+    % Chỉ dùng 1 logo tinh tế
+    \includegraphics[width=1.2cm]{cherry_blossom.pdf} 
 
-\vspace*{\fill}
+    \vspace{0.8cm}
+
+    {\titlefont\Large\textcolor{sakura_dark}{30 Ngày / 30 Oneshots}}
+
+    \vspace{0.2cm}
+    {\normalsize\textit{Tuyển tập truyện ngắn}}
+
+    \vspace{0.8cm}
+
+    % Đường kẻ mỏng thanh lịch thay cho hoa lá
+    \textcolor{sakura_light}{\rule{0.4\textwidth}{0.5pt}}
+
+    \vspace{0.8cm}
+
+    % Bảng thông tin tối giản
+    \begin{tabular}{rl}
+        \textcolor{bunko_gray}{\scriptsize TÁC GIẢ}  & \textbf{Akihiko Sora} \\[0.2cm]
+        \textcolor{bunko_gray}{\scriptsize BIÊN TẬP} & Mitsuki Yumei         \\
+    \end{tabular}
+
+    \vspace{1.2cm}
+
+    % Đánh số Limited Edition dóng khung cực kỳ "Tây"
+    \begin{tikzpicture}
+        \draw[sakura_dark, line width=0.4pt] (-2.5,0) -- (2.5,0);
+        \node[fill=white, inner sep=6pt] at (0,0) {
+            \textcolor{sakura_dark}{\small No.\ \underline{\hspace{1.5cm}}\ / 500}
+        };
+    \end{tikzpicture}
+
+    \vspace{0.5cm}
+    {\scriptsize\textcolor{bunko_gray}{LIMITED SAKURA EDITION — \the\year}}
+    \vspace*{2cm} % Cân bằng một chút lề dưới cùng
+\end{center}

@@ -3,19 +3,7 @@
 % DESCRIPTION: All package imports
 % ═══════════════════════════════════════════════════════════════
 
-% ───────────────────────────────────────
-% GEOMETRY
-% ───────────────────────────────────────
-\usepackage[
-    paperwidth=105mm, 
-    paperheight=148mm, 
-    top=10mm, 
-    bottom=12mm, 
-    inner=12mm,
-    outer=8mm,
-    headsep=5mm,
-    footskip=8mm
-]{geometry}
+
 
 % ───────────────────────────────────────
 % LANGUAGE & ENCODING
@@ -58,3 +46,8 @@
 % GRAPHICS PATH
 % ───────────────────────────────────────
 \graphicspath{{images/pdf/}{images/}}
+
+% ───────────────────────────────────────
+% TOC CUSTOM + HYPERREF (PHẢI CUỐI CÙNG)
+% ───────────────────────────────────────
+\usepackage{tocloft}          % ← để leader dots đẹp, không chạm

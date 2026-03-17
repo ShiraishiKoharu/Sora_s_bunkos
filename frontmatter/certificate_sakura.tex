@@ -1,68 +1,43 @@
 % ═══════════════════════════════════════════════════════════════
-% FILE: frontmatter/certificate_sakura.tex
+% FILE: frontmatter/certificate_sakura.tex (REFACTORED - LUXURY)
 % ═══════════════════════════════════════════════════════════════
-
 \thispagestyle{empty}
 
-\begin{tikzpicture}[remember picture, overlay]
-    \draw[sakura, line width=1pt, double] 
-        ($(current page.north west) + (12mm,-12mm)$) 
-        rectangle 
-        ($(current page.south east) + (-12mm,12mm)$);
-\end{tikzpicture}
-
-\vspace*{1.5cm}
+\vspace*{2cm}
 
 \begin{center}
-    \textcolor{sakura}{\pgfornament[width=4cm]{72}}
-    
-    \vspace{1cm}
-    
-    {\titlefont\Large\textcolor{sakura_dark}{GIẤY XÁC NHẬN}}
-    
+    % 1 icon nhỏ xíu làm bảo chứng
+    \includegraphics[width=0.8cm]{cherry_blossom.pdf}
+
+    \vspace{1.5cm}
+
+    {\titlefont\Large\textcolor{bunko_ink}{\MakeUppercase{Chứng nhận sở hữu}}}
+
     \vspace{0.3cm}
-    
-    {\small\textit{Limited Sakura Edition}}
-    
-    \vspace{1.5cm}
-    
-    {\footnotesize Bản sách này là}
-    
-    \vspace{0.5cm}
-    
-    \tikz{
-        \draw[sakura_dark, line width=0.5pt] (-3,0.6) rectangle (3,-0.6);
-        \node at (0,0) {
-            {\Large\textcolor{sakura_dark}{No. \underline{\hspace{1.5cm}} / 500}}
-        };
-    }
-    
+    {\footnotesize\itshape\textcolor{sakura_dark}{Limited Sakura Edition}}
+
+    \vspace{2cm}
+
+    % Đánh số Edition cực kỳ điện ảnh
+    {\titlefont\fontsize{24}{28}\selectfont\textcolor{sakura_dark}{
+            N\textsuperscript{\underline{o}} \underline{\hspace{2cm}} / 500
+        }}
+
     \vspace{1cm}
-    
-    {\footnotesize trong tổng số 500 bản giới hạn}
-    
-    \vspace{1.5cm}
-    
-    \begin{flushright}
-        \hspace{3cm}
-        {\footnotesize\textit{Người sở hữu:}}
-        
-        \vspace{0.3cm}
-        
-        \textcolor{sakura_dark}{\rule{4cm}{0.4pt}}
-        
-        \vspace{1cm}
-        
-        {\footnotesize\textit{Tác giả:}}
-        
-        \vspace{0.3cm}
-        
-        {\handwritingfont\textcolor{sakura_dark}{Akihiko Sora}}
-    \end{flushright}
-    
-    \vfill
-    
-    \textcolor{sakura}{\pgfornament[width=4cm]{72}}
+
+    {\scriptsize\textcolor{bunko_gray}{ẤN BẢN ĐƯỢC ĐÁNH SỐ THỦ CÔNG.}}
 \end{center}
 
+\vfill
+
+% Chữ ký tác giả căn trái, tạo cảm giác thân mật
+\begin{flushleft}
+    \textcolor{bunko_gray}{\rule{5cm}{0.5pt}}\\[0.2cm]
+    {\footnotesize\MakeUppercase{Chữ ký tác giả:}}\\[0.5cm]
+    % (Chừa chỗ trắng để ký tay bằng bút mực thật)
+    \vspace{1.5cm}
+    {\handwritingfont\Large\textcolor{sakura_dark}{Akihiko Sora}}
+\end{flushleft}
+
+\vspace*{2cm}
 \clearpage

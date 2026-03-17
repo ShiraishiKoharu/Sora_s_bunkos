@@ -1,33 +1,39 @@
 % ═══════════════════════════════════════════════════════════════
-% FILE: frontmatter/titlepage_sakura.tex
+% FILE: frontmatter/titlepage_sakura.tex (REFACTORED - ARCHITECTURE)
 % ═══════════════════════════════════════════════════════════════
-
 \thispagestyle{empty}
-\vspace*{2cm}
 
-\begin{center}
-    {\titlefont\LARGE
-        \textbf{THỬ THÁCH}\\[0.4cm]
-        \textbf{MỖI NGÀY MỘT ONESHOT}
-    }
-    
-    \vspace{0.8cm}
-    \textcolor{sakura}{\rule{3cm}{0.5pt}}
-    \vspace{0.8cm}
-    
-    {\large Tuyển tập 30 truyện ngắn}
-    
-    \vfill
-    
-    \begin{tabular}{rl}
-        \textcolor{sakura_dark}{\small Tác giả:} & \textbf{Akihiko Sora} \\[0.3cm]
-        \textcolor{sakura_dark}{\small Biên tập:} & Mitsuki Yumei \\
-    \end{tabular}
-    
-    \vspace{1.5cm}
-    
-    {\small\textcolor{sakura_dark}{$\sim$ Bunko Sakura Edition $\sim$}}
-    \vspace{1cm}
-\end{center}
+\vspace*{3cm}
 
+\begin{flushleft}
+    % Tên sách siêu to, ép sát lề trái
+    {\titlefont\fontsize{32}{36}\selectfont\bfseries\textcolor{sakura_dark}{
+            THỬ THÁCH\\[0.2cm]
+            MỖI NGÀY MỘT\\[0.2cm]
+            ONESHOT
+        }}
+
+    \vspace{0.8cm}
+
+    % Dùng một đường kẻ line mỏng, dứt khoát làm vạch phân cách
+    \textcolor{sakura_dark}{\rule{0.6\textwidth}{1pt}}
+
+    \vspace{0.8cm}
+
+    % Phụ đề nhỏ, thanh lịch
+    {\large\itshape\textcolor{bunko_gray}{Tuyển tập truyện ngắn phiên bản giới hạn}}
+\end{flushleft}
+
+\vfill
+
+% Dịch tác giả xuống góc phải dưới cùng để tạo sự cân bằng chéo (Diagonal Balance)
+\begin{flushright}
+    {\small TÁC GIẢ}\\[0.1cm]
+    {\Large\bfseries\textcolor{sakura_dark}{Akihiko Sora}}\\[0.5cm]
+
+    {\small BIÊN TẬP}\\[0.1cm]
+    {\large Mitsuki Yumei}
+\end{flushright}
+
+\vspace*{1.5cm}
 \clearpage

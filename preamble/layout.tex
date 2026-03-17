@@ -3,6 +3,21 @@
 % DESCRIPTION: Page layout settings
 % ═══════════════════════════════════════════════════════════════
 
+% === preamble/layout.tex (B6 JIS + binding sewn) ===
 \setlength{\parindent}{1em}
 \setlength{\parskip}{0pt}
-\linespread{1.25}
+\linespread{1.28}  % nhẹ nhàng hơn 1.25 cho giấy uncoated
+
+\usepackage[
+    paperwidth=125mm,
+    paperheight=176mm,
+    top=15mm,
+    bottom=20mm,
+    inner=16mm,     % tăng gutter cho sewn perfect binding
+    outer=14mm,
+    headsep=5mm,
+    footskip=8mm,
+    bindingoffset=0mm,  % offset thêm cho chỉ khâu
+    twoside,
+    showframe=false
+]{geometry}

@@ -1,14 +1,16 @@
 % ═══════════════════════════════════════════════════════════════
-% FILE: preamble/chapters_sakura.tex
-% DESCRIPTION: Chapter styling for Sakura Edition
+% FILE: preamble/chapters_sakura.tex (BUG FIXED)
 % ═══════════════════════════════════════════════════════════════
 
+\usepackage{titlesec}
+
 \titleformat{\chapter}[display]
-    {\normalfont\titlefont\large\centering}
-    {}
-    {0pt}
-    {\textcolor{sakura}{\pgfornament[width=3cm]{72}}\\[0.5cm]}
-    [\vspace{0.3cm}\textcolor{sakura}{\pgfornament[width=2cm]{80}}\vspace{0.5cm}]
+{\vspace*{3cm}\normalfont\centering}
+{\small\sffamily\color{bunko_gray} C H Ư Ơ N G  \thechapter}
+{2ex}
+{\titlefont\Huge\bfseries\color{sakura_dark}}
+[{ \vspace{0.8cm}\includegraphics[width=0.8cm]{cherry_blossom.pdf}\vspace{1.5cm} }]
+% ^ Đã bọc thêm cặp { } ngay bên trong cặp [ ] ở trên!
 
 \titlespacing*{\chapter}{0pt}{0pt}{20pt}
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}

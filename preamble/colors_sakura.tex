@@ -3,30 +3,22 @@
 % DESCRIPTION: Color definitions for Sakura Edition
 % ═══════════════════════════════════════════════════════════════
 
-% Base colors
-\definecolor{bunko_paper}{HTML}{FAF6F0}
-\definecolor{bunko_ink}{HTML}{1A1A1A}
-\definecolor{bunko_gray}{HTML}{666666}
+% === preamble/colors_sakura.tex (CMYK 100%) ===
+\definecolor{bunko_paper}{cmyk}{0,0.02,0.04,0.02}      % ngà nhẹ, giống giấy uncoated ivory
+\definecolor{bunko_ink}{cmyk}{0,0,0,1}
+\definecolor{bunko_gray}{cmyk}{0,0,0,0.6}
 
-% Sakura theme
-\definecolor{sakura}{HTML}{FFB7C5}
-\definecolor{sakura_dark}{HTML}{C71585}
-\definecolor{sakura_light}{HTML}{FFE4E9}
+% Sakura theme (CMYK thật)
+\definecolor{sakura}{cmyk}{0,0.28,0.23,0}         % #FFB7C5 thật khi in
+\definecolor{sakura_dark}{cmyk}{0,0.89,0.33,0.22}   % #C71585 đậm hơn, không bị hồng nhạt
+\definecolor{sakura_light}{cmyk}{0,0.11,0.09,0}
 
-% Theme aliases
 \colorlet{theme_primary}{sakura_dark}
 \colorlet{theme_secondary}{sakura}
 \colorlet{theme_light}{sakura_light}
 
-% Page colors
 \pagecolor{bunko_paper}
 \color{bunko_ink}
 
-% Hyperref
-\hypersetup{
-    colorlinks=true,
-    linkcolor=sakura_dark,
-    urlcolor=sakura_dark,
-    pdftitle={30 Ngày 30 Oneshots - Limited Sakura Edition},
-    pdfauthor={Akihiko Sora}
-}
+% Hyperref giữ link màu sakura_dark
+
