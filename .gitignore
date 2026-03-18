@@ -10,6 +10,11 @@
 *.synctex.gz
 *.toc
 *.xdv
+*.lof
+*.lot
+*.nav
+*.snm
+*.synctex.gz.sum.synctex
 chapters/*.aux
 chapters/*.log
 # Bỏ qua thư mục build (Nếu bạn xuất PDF vào đây)
