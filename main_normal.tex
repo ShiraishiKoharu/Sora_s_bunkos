@@ -1,0 +1,93 @@
+% ═══════════════════════════════════════════════════════════════
+% FILE: main_normal.tex
+% DESCRIPTION: Main entry point for Normal Edition
+% ═══════════════════════════════════════════════════════════════
+
+\documentclass[10pt, openright, twoside]{book}
+
+% ───────────────────────────────────────
+% EDITION FLAGS
+% ───────────────────────────────────────
+\newif\iflimitededition
+\limitededitionfalse
+
+\newif\ifwinteredition
+\wintereditionfalse
+
+% ───────────────────────────────────────
+% PREAMBLE
+% ───────────────────────────────────────
+\input{preamble/packages}
+\input{preamble/fonts}
+\input{preamble/layout}
+\input{preamble/colors_normal}
+\input{preamble/headers_normal}
+\input{preamble/chapters_normal}
+\input{preamble/commands_shared}
+\input{preamble/commands_normal}
+
+% ═══════════════════════════════════════════════════════════════
+\begin{document}
+% ═══════════════════════════════════════════════════════════════
+
+% ───────────────────────────────────────
+% FRONT MATTER
+% ───────────────────────────────────────
+\frontmatter
+
+\input{frontmatter/cover_normal}
+\input{frontmatter/halftitle}
+\input{frontmatter/titlepage_normal}
+\input{frontmatter/copyright}
+\input{frontmatter/preface_normal}
+
+\tableofcontents
+\cleardoublepage
+
+% ───────────────────────────────────────
+% MAIN MATTER
+% ───────────────────────────────────────
+\mainmatter
+
+\include{chapters/chapter_1}
+\include{chapters/chapter_29}
+\include{chapters/chapter_2}
+\include{chapters/chapter_3}
+\include{chapters/chapter_4}
+\include{chapters/chapter_5}
+\include{chapters/chapter_6}
+\include{chapters/chapter_7}
+\include{chapters/chapter_8}
+\include{chapters/chapter_9}
+\include{chapters/chapter_10}
+\include{chapters/chapter_11}
+\include{chapters/chapter_12}
+\include{chapters/chapter_13}
+\include{chapters/chapter_14}
+\include{chapters/chapter_15}
+\include{chapters/chapter_16}
+\include{chapters/chapter_17}
+\include{chapters/chapter_18}
+\include{chapters/chapter_19}
+\include{chapters/chapter_20}
+\include{chapters/chapter_21}
+\include{chapters/chapter_22}
+\include{chapters/chapter_23}
+\include{chapters/chapter_24}
+\include{chapters/chapter_25}
+\include{chapters/chapter_26}
+\include{chapters/chapter_27}
+\include{chapters/chapter_28}
+\include{chapters/chapter_30}
+% Add more chapters as needed
+
+% ───────────────────────────────────────
+% BACK MATTER
+% ───────────────────────────────────────
+\backmatter
+
+\input{backmatter/colophon_normal}
+
+% ═══════════════════════════════════════════════════════════════
+\end{document}
+% ═══════════════════════════════════════════════════════════════

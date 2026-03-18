@@ -1,0 +1,123 @@
+* a4b7733 2026-03-18 (HEAD -> continue) add more ignored file types
+| 
+|  1 file changed, 5 insertions(+)
+* de811ab 2026-03-18 create dynamic copyright page for the book
+| 
+|  1 file changed, 18 insertions(+), 24 deletions(-)
+* 3796aef 2026-03-18 add copyright page in to the book
+| 
+|  1 file changed, 4 insertions(+), 2 deletions(-)
+* b4f0e51 2026-03-17 rebuild book from chapter 1 to 30
+| 
+|  47 files changed, 836 insertions(+), 674 deletions(-)
+* 40960c4 2026-03-17 big change for book design form cover to chapters to colophon
+| 
+|  51 files changed, 495 insertions(+), 366 deletions(-)
+* d982830 2026-03-17 big change for book design form cover to chapters to colophon
+| 
+|  2 files changed, 137 insertions(+), 19 deletions(-)
+| * bdf5486 2026-02-25 (origin/main, origin/HEAD, rescue-commits) temporary stop
+|/| 
+| * b4693b6 2026-01-23 thử nghiệm về ps và bố trí lại file
+| | 
+| |  1 file changed, 4 insertions(+), 3 deletions(-)
+| * 6a2152a 2026-01-23 hoafn thành việc chuyển thể nội dung từ 30 oneshots của Akihiko Sora bằng LaTeX
+| | 
+| |  74 files changed, 18303 insertions(+), 3251 deletions(-)
+* | 3fecf89 2026-02-23 (origin/continue, main) tạm đóng băng dự án
+| | 
+| |  12 files changed, 6520 deletions(-)
+* | 95e0ba5 2026-02-23 tạm đóng băng dự án
+| | 
+| |  42 files changed, 7206 insertions(+), 7 deletions(-)
+* | 21e2fd6 2026-01-27 viết giới thiệu cho dự án kèm quảng cáo cho tác giả gốc
+| | 
+| |  1 file changed, 109 insertions(+), 2 deletions(-)
+* | 9a0fb1c 2026-01-26 thêm 5 ngày tiếp theo của chuỗi thử thách mỗi ngày một thử thách
+| | 
+| |  1 file changed, 6 insertions(+)
+* | 8af1722 2026-01-26 thêm chapter 10 trong thử thách
+| | 
+| |  1 file changed, 6 insertions(+)
+* | bd89187 2026-01-26 thêm oneshot trong ngày thứ 9 của thử thách
+| | 
+| |  1 file changed, 6 insertions(+)
+* | 6cd48e7 2026-01-26 thêm oneshot cho ngày thứ 8 trong thử thách
+| | 
+| |  1 file changed, 12 insertions(+), 2 deletions(-)
+* | 3e3c6ac 2026-01-26 thêm oneshot cho ngày thứ 7 của thử thách
+| | 
+| |  1 file changed, 6 insertions(+)
+* | 9e60dae 2026-01-26 thêm tiêu đề cho oneshot ngày thứ 6
+| | 
+| |  1 file changed, 2 insertions(+), 1 deletion(-)
+* | 25c77f0 2026-01-26 thêm truyện của ngày thứ 6
+| | 
+| |  1 file changed, 5 insertions(+), 1 deletion(-)
+* | 2eb3f71 2026-01-26 completed fix errors about bookmarks
+| | 
+| |  1 file changed, 4 insertions(+), 1 deletion(-)
+* | 7468e87 2026-01-26 fix storyheader and tableofcontents
+| | 
+| |  1 file changed, 5 insertions(+), 4 deletions(-)
+* | a96834a 2026-01-26 thêm package bookmark vào tài liệu
+| | 
+| |  1 file changed, 1 insertion(+)
+* | ea7261f 2026-01-26 sửa lệnh từ storyfooter thành storyheader
+| | 
+| |  1 file changed, 1 insertion(+), 1 deletion(-)
+* | 5e1996e 2026-01-26 bỏ mục lục cho bản miyuki
+| | 
+| |  1 file changed, 2 insertions(+), 2 deletions(-)
+* | b66e3f3 2026-01-26 thử nghiệm thêm 5 chapter mới vào phiên bản miyuki
+| | 
+| |  1 file changed, 19 insertions(+), 20 deletions(-)
+* | e0432ff 2026-01-24 thêm oneshot của ngày thứ 5
+| | 
+| |  1 file changed, 6 insertions(+)
+* | 7cb1071 2026-01-24 thêm oneshot ngày thứ 4 trong thử thách
+| | 
+| |  1 file changed, 6 insertions(+)
+* | 42dc508 2026-01-24 thêm chapter cho ngày thứ 3
+| | 
+| |  1 file changed, 6 insertions(+)
+* | 1c0d5db 2026-01-24 bổ sung oneshot ngày thứ hai vào bộ bunko bản thường
+| | 
+| |  2 files changed, 3 insertions(+), 3 deletions(-)
+* | ea7d212 2026-01-24 thêm phần psnote để điền mấy lời từ tác giảgiảcd
+| | 
+| |  4 files changed, 24 insertions(+), 29 deletions(-)
+* | 10879cf 2026-01-24 cập nhật lại oneshot ngày thứ nhất
+| | 
+| |  1 file changed, 6 insertions(+)
+* | 4574012 2026-01-24 sửa lại trật tự của các câu chuyện theo tiến trình diễn ra thử thách
+|/  
+|   
+|    30 files changed, 4985 insertions(+), 3304 deletions(-)
+* e907871 2026-01-23 thêm nội dung cho các ngày 21,22,23,24 cho bản giới hạn phong cách sakura
+| 
+|  1 file changed, 6 insertions(+)
+* 39d3644 2026-01-23 thêm nội dung cho các ngày 21,22,23,24 cho bản thường
+| 
+|  1 file changed, 4 insertions(+), 1 deletion(-)
+* 367391b 2026-01-23 thêm chapter cho các ngày 21, 22, 23, 24
+| 
+|  1 file changed, 4 insertions(+)
+* eb9b1d7 2026-01-23 câu chuyện của ngày thứ 24 trong chuỗi thử thách
+| 
+|  1 file changed, 181 insertions(+)
+* 1f5af47 2026-01-23 câu chuyện của ngày thứ 23 trong chuỗi thử thách
+| 
+|  1 file changed, 220 insertions(+)
+* f2c3b0e 2026-01-23 thêm câu chuyện viết vào ngày thứ 22
+| 
+|  1 file changed, 144 insertions(+)
+* b72a380 2026-01-23 thêm câu chuyện cho ngày thứ 21
+| 
+|  1 file changed, 173 insertions(+)
+* d4c8d31 2026-01-22 Initial commit: 30 Ngày 30 Oneshots - Sora Bunko Edition
+| 
+|  64 files changed, 7949 insertions(+)
+* 9808c44 2026-01-22 Initial commit
+  
+   1 file changed, 2 insertions(+)
