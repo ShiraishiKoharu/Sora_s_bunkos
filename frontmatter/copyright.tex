@@ -1,33 +1,27 @@
 % ═══════════════════════════════════════════════════════════════
-% FILE: frontmatter/copyright.tex
+% FILE: frontmatter/copyright.tex (DYNAMIC PAGE)
 % ═══════════════════════════════════════════════════════════════
-
 \thispagestyle{empty}
 \vspace*{\fill}
 
-\begin{center}
-    \textcolor{theme_secondary}{\rule{3cm}{0.3pt}}
-    
-    \vspace{1cm}
-    
-    {\small
-        \textit{Tuyển tập này được biên soạn từ 30 truyện ngắn}\\[0.2cm]
-        \textit{trong thử thách ``Mỗi ngày một Oneshot''}\\[0.2cm]
-        \textit{của tác giả Akihiko Sora.}
-    }
-    
-    \vspace{1.5cm}
-    
-    {\footnotesize\textcolor{bunko_gray}{
-        Bản quyền nội dung thuộc về tác giả.\\[0.2cm]
-        File PDF này chỉ nhằm mục đích lưu trữ\\[0.2cm]
-        và chia sẻ phi lợi nhuận.
-    }}
-    
-    \vspace{1cm}
-    
-    \textcolor{theme_secondary}{\rule{3cm}{0.3pt}}
-\end{center}
+\begin{flushleft}
+    \textbf{\MakeUppercase{\booktitle}}\\
+    \textit{Tác giả:} \bookauthor \\
+    \textit{Dàn trang \& Kỹ thuật:} \booktypesetter
 
-\vspace*{\fill}
+    \vspace{1cm}
+
+    \ccbyncnd \\[0.2cm]
+    {\footnotesize
+    Tài liệu này được phát hành dưới giấy phép \textbf{Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License}.\\
+    Bản in PDF này được tạo ra hoàn toàn phi lợi nhuận nhằm mục đích lưu trữ và trải nghiệm Typography. Tuyệt đối không sử dụng cho mục đích thương mại.
+    }
+
+    \vspace{0.5cm}
+    \textcolor{theme_secondary}{\rule{\textwidth}{0.5pt}} % Tự đổi màu theo phiên bản
+    \vspace{0.2cm}
+
+    % Chú ý dòng dưới cùng này: Tự động in ra tên phiên bản!
+    {\scriptsize Typeset in \LaTeX\ \textbullet\ \the\year\ \textbullet\ \textbf{\editionname}}
+\end{flushleft}
 \clearpage
